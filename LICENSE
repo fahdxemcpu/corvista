@@ -1,0 +1,116 @@
+Corvista Source-Available License — Non-Commercial with Revenue Share
+Version 1.0
+
+Copyright (c) 2026 Fahd Chouki. All rights reserved except as granted below.
+
+The source code, documentation, assets and other files in this repository
+(the "Software") are made available under the following terms. By using,
+copying, modifying or distributing the Software you agree to them.
+
+1. DEFINITIONS
+
+   "Licensor" means Fahd Chouki, the copyright holder.
+
+   "Non-Commercial Use" means use that is not primarily intended for or
+   directed toward commercial advantage or monetary compensation, including:
+   personal use, private study, academic research, teaching, evaluation and
+   testing, and use by non-profit organisations for non-commercial purposes.
+
+   "Commercial Use" means any use that is not Non-Commercial Use, including:
+   (a) selling, licensing, renting or distributing the Software, or any
+       product or service that includes, is based on, or is derived from the
+       Software (a "Derived Product"), for a fee;
+   (b) publishing a Derived Product in any app store or marketplace where it
+       earns revenue of any kind, including paid downloads, in-app purchases,
+       subscriptions or advertising;
+   (c) using the Software or a Derived Product to provide paid services, or
+       inside a business to generate revenue.
+
+   "Gross Revenue" means all revenue received by you or your affiliates from
+   any Derived Product or from any Commercial Use of the Software, before
+   deducting taxes, app-store or platform fees, costs or expenses.
+
+2. NON-COMMERCIAL GRANT
+
+   Subject to these terms, the Licensor grants you a worldwide, royalty-free,
+   non-exclusive, non-transferable licence to use, copy, modify and
+   distribute the Software and Derived Products for Non-Commercial Use only,
+   provided that:
+   (a) you keep this LICENSE file, the NOTICE file and all copyright notices
+       in every copy or substantial portion of the Software;
+   (b) any Derived Product you distribute is distributed under this same
+       License, and you state clearly that it is based on Corvista, with a
+       link to the original repository;
+   (c) you do not use the name "Corvista", its logo or icon to name or promote
+       a Derived Product without the Licensor's prior written permission.
+
+3. COMMERCIAL USE — REVENUE SHARE
+
+   No Commercial Use is permitted under Section 2. Commercial Use requires a
+   separate written commercial licence from the Licensor, entered into
+   before the Commercial Use begins. Unless the Licensor agrees otherwise in
+   writing, every commercial licence is subject to the following minimum
+   terms:
+   (a) Royalty. You pay the Licensor ten percent (10%) of Gross Revenue.
+   (b) Payment. Royalties are calculated and paid quarterly, within thirty
+       (30) days after the end of each calendar quarter, together with a
+       written statement of Gross Revenue for that quarter.
+   (c) Records and audit. You keep accurate records of Gross Revenue for at
+       least three (3) years and allow the Licensor, on reasonable notice and
+       at most once per year, to have them inspected by an independent
+       accountant. If an inspection shows an underpayment of more than five
+       percent (5%), you pay the shortfall plus the cost of the inspection.
+   (d) Attribution. Every Derived Product credits "Based on Corvista by
+       Fahd Chouki" in its about or licences screen.
+
+   Any Commercial Use without a commercial licence is a breach of this
+   License and an infringement of the Licensor's copyright. Without limiting
+   any other remedy, the infringing party owes the Licensor no less than the
+   royalty set out in Section 3(a) on all Gross Revenue earned, plus interest
+   and the costs of enforcement where the law allows.
+
+   To request a commercial licence, open an issue titled "Commercial licence
+   request" on the original repository (https://github.com/fahdxemcpu/corvista)
+   or contact the Licensor through the GitHub profile
+   https://github.com/fahdxemcpu.
+
+4. THIRD-PARTY COMPONENTS
+
+   The Software includes or depends on third-party components (including
+   on-device machine-learning models, Flutter packages and Swift packages)
+   that are licensed under their own terms, listed in the NOTICE file and in
+   assets/licenses/. Those terms govern those components and are not
+   changed by this License. This License covers only the Licensor's own
+   work.
+
+5. TERMINATION
+
+   Your rights under this License end automatically if you breach any of its
+   terms. If you cure the breach within thirty (30) days of written notice
+   from the Licensor, and it is your first breach, your rights are
+   reinstated. Royalty and payment obligations survive termination.
+
+6. NO TRADEMARK RIGHTS
+
+   This License grants no right to use the Licensor's names, trademarks,
+   logos or icons, except as required for the notices in Section 2(a).
+
+7. NO WARRANTY; LIMITATION OF LIABILITY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL
+   THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+   IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+   CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+   THE SOFTWARE IS A DRIVING AID ONLY. IT CAN MISS, MISCLASSIFY OR MISPLACE
+   OBJECTS AND IS NOT A SAFETY SYSTEM. THE DRIVER REMAINS FULLY RESPONSIBLE
+   FOR SAFE DRIVING AT ALL TIMES.
+
+8. GENERAL
+
+   If any provision of this License is held unenforceable, the remaining
+   provisions stay in effect. This License is the entire agreement about the
+   Software for Non-Commercial Use; commercial licences are governed by
+   their own written agreement.

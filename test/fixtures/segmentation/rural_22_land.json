@@ -1,0 +1,65 @@
+{
+ "detections": [
+  {
+   "cls": 3,
+   "conf": 0.7329,
+   "h": 0.1755,
+   "key": "car",
+   "label": "car",
+   "w": 0.2404,
+   "x": 0.5888,
+   "y": 0.6573
+  },
+  {
+   "cls": 5,
+   "conf": 0.6465,
+   "h": 0.0535,
+   "key": "trafficLight",
+   "label": "traffic light",
+   "light": "unknown",
+   "lightConf": 0,
+   "w": 0.016,
+   "x": 0.2686,
+   "y": 0.4938
+  },
+  {
+   "cls": 1,
+   "conf": 0.6501,
+   "h": 0.0539,
+   "key": "bicycle",
+   "label": "bicycle",
+   "w": 0.0238,
+   "x": 0.5228,
+   "y": 0.7069
+  },
+  {
+   "cls": 3,
+   "conf": 0.4997,
+   "h": 0.0425,
+   "key": "car",
+   "label": "car",
+   "w": 0.0497,
+   "x": 0.0466,
+   "y": 0.6833
+  },
+  {
+   "cls": 5,
+   "conf": 0.3511,
+   "h": 0.0537,
+   "key": "trafficLight",
+   "label": "traffic light",
+   "light": "unknown",
+   "lightConf": 0,
+   "w": 0.0149,
+   "x": 0.3099,
+   "y": 0.4927
+  }
+ ],
+ "detector": "YOLOX-S 640",
+ "height": 720,
+ "image": "rural_22_land.jpg",
+ "mapH": 224,
+ "mapW": 224,
+ "source": "rural_road.mp4 frame, eval: tools/model_eval/run_eval.sh --dump-maps",
+ "width": 1280
+}

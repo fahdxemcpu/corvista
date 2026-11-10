@@ -1,0 +1,21 @@
+{
+  "@@locale": "en_GB",
+  "clipsFavorite": "Favourite",
+  "clipsUnfavorite": "Remove from favourites",
+  "playerFavorited": "Added to favourites",
+  "playerUnfavorited": "Removed from favourites",
+  "settingsStabilization": "Stabilisation",
+  "settingsCameraFooter": "Lens and stabilisation changes apply the next time the camera starts.",
+  "settingsHudCustomize": "Customise HUD",
+  "settingsAutoRecenter": "Auto-recentre map",
+  "settingsReduceMotionSubtitle": "Minimises animations across the app",
+  "hudCustomTitle": "Customise HUD",
+  "mapRecenter": "Recentre",
+  "navSpokenMeters": "{count, plural, =1{1 metre} other{{count} metres}}",
+  "navSpokenKilometers": "{count, plural, =1{1 kilometre} other{{value} kilometres}}",
+  "onboardingBody2": "Recognise supported vehicles, people, bicycles, and road signals directly on your iPhone.",
+  "onboardingBody3": "Switch between live detection, virtual driving views, interactive maps, and parking visualisation.",
+  "permSpeechLine": "Recognises your cancel phrase during an emergency countdown, on your iPhone where supported.",
+  "tripsFavorite": "Add to favourites",
+  "tripsUnfavorite": "Remove from favourites"
+}

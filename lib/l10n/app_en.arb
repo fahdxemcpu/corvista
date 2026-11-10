@@ -1,0 +1,4196 @@
+{
+  "@@locale": "en",
+  "appName": "Corvista",
+  "@appName": {
+    "description": "Product name; do not translate"
+  },
+  "appTagline": "See more of every drive.",
+  "@appTagline": {
+    "description": "Brand tagline"
+  },
+  "commonCancel": "Cancel",
+  "@commonCancel": {
+    "description": "Generic cancel button"
+  },
+  "commonDelete": "Delete",
+  "@commonDelete": {
+    "description": "Generic delete button"
+  },
+  "commonSave": "Save",
+  "@commonSave": {
+    "description": "Generic save button"
+  },
+  "commonBack": "Back",
+  "@commonBack": {
+    "description": "Generic back button"
+  },
+  "commonClose": "Close",
+  "@commonClose": {
+    "description": "Generic close button"
+  },
+  "commonRetry": "Try again",
+  "@commonRetry": {
+    "description": "Retry after an error"
+  },
+  "commonOpenSettings": "Open Settings",
+  "@commonOpenSettings": {
+    "description": "Opens the iOS Settings app for this app"
+  },
+  "commonLoading": "Loading…",
+  "@commonLoading": {
+    "description": "Generic loading label"
+  },
+  "commonError": "Something went wrong.",
+  "@commonError": {
+    "description": "Generic error message"
+  },
+  "commonErrorDetail": "Something went wrong: {message}",
+  "@commonErrorDetail": {
+    "description": "Generic error with technical detail",
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "commonOn": "On",
+  "@commonOn": {
+    "description": "Toggle state on"
+  },
+  "commonOff": "Off",
+  "@commonOff": {
+    "description": "Toggle state off"
+  },
+  "commonRename": "Rename",
+  "@commonRename": {
+    "description": "Rename action"
+  },
+  "commonShare": "Share",
+  "@commonShare": {
+    "description": "Share action"
+  },
+  "commonNotAvailable": "Not available",
+  "@commonNotAvailable": {
+    "description": "Generic unavailable value"
+  },
+  "commonTestFootage": "TEST FOOTAGE",
+  "@commonTestFootage": {
+    "description": "Label shown while a local test video is used instead of the live camera"
+  },
+  "zoneVeryClose": "Very close",
+  "@zoneVeryClose": {
+    "description": "Proximity zone (qualitative, not a measured distance)"
+  },
+  "zoneClose": "Close",
+  "@zoneClose": {
+    "description": "Proximity zone"
+  },
+  "zoneMedium": "Medium",
+  "@zoneMedium": {
+    "description": "Proximity zone"
+  },
+  "zoneFar": "Far",
+  "@zoneFar": {
+    "description": "Proximity zone"
+  },
+  "zoneUnknown": "Unknown",
+  "@zoneUnknown": {
+    "description": "Proximity zone when it cannot be estimated"
+  },
+  "classPerson": "Person",
+  "@classPerson": {
+    "description": "Object class label"
+  },
+  "classBicycle": "Bicycle",
+  "@classBicycle": {
+    "description": "Object class label"
+  },
+  "classMotorcycle": "Motorcycle",
+  "@classMotorcycle": {
+    "description": "Object class label"
+  },
+  "classCar": "Vehicle",
+  "@classCar": {
+    "description": "Object class label (cars, trucks, vans)"
+  },
+  "classBus": "Bus",
+  "@classBus": {
+    "description": "Object class label"
+  },
+  "classTrafficLight": "Traffic light",
+  "@classTrafficLight": {
+    "description": "Object class label"
+  },
+  "classStopSign": "Stop sign",
+  "@classStopSign": {
+    "description": "Object class label"
+  },
+  "viewDetection": "Detection",
+  "@viewDetection": {
+    "description": "Drive view name: live camera with detection boxes"
+  },
+  "viewVirtual": "Virtual",
+  "@viewVirtual": {
+    "description": "Drive view name: 2.5D virtual road scene"
+  },
+  "viewMap": "Map",
+  "@viewMap": {
+    "description": "Drive view name: interactive map"
+  },
+  "viewParking": "Parking",
+  "@viewParking": {
+    "description": "Drive view name: parking visualization"
+  },
+  "viewPerception": "Perception",
+  "@viewPerception": {
+    "description": "Drive view name: segmentation masks (Premium)"
+  },
+  "unitKmh": "km/h",
+  "@unitKmh": {
+    "description": "Speed unit kilometres per hour"
+  },
+  "unitMph": "mph",
+  "@unitMph": {
+    "description": "Speed unit miles per hour"
+  },
+  "lightRed": "Red",
+  "@lightRed": {
+    "description": "Traffic light lamp state"
+  },
+  "lightYellow": "Yellow",
+  "@lightYellow": {
+    "description": "Traffic light lamp state"
+  },
+  "lightGreen": "Green",
+  "@lightGreen": {
+    "description": "Traffic light lamp state"
+  },
+  "lightUnknown": "Unknown",
+  "@lightUnknown": {
+    "description": "Traffic light lamp state when unclear"
+  },
+  "clipsTitle": "Clips",
+  "@clipsTitle": {
+    "description": "Title of the saved incident clips screen"
+  },
+  "clipsSelect": "Select",
+  "@clipsSelect": {
+    "description": "Enter multi-select mode in the clips gallery"
+  },
+  "clipsSelectedCount": "{count, plural, =0{Select clips} =1{1 selected} other{{count} selected}}",
+  "@clipsSelectedCount": {
+    "description": "Title while selecting clips",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsSelectAll": "Select all",
+  "@clipsSelectAll": {
+    "description": "Select all visible clips"
+  },
+  "clipsDeselectAll": "Deselect all",
+  "@clipsDeselectAll": {
+    "description": "Clear the clip selection"
+  },
+  "clipsDeleteSelected": "Delete selected",
+  "@clipsDeleteSelected": {
+    "description": "Delete the selected clips"
+  },
+  "clipsGridView": "Grid view",
+  "@clipsGridView": {
+    "description": "Switch gallery to grid layout"
+  },
+  "clipsListView": "List view",
+  "@clipsListView": {
+    "description": "Switch gallery to list layout"
+  },
+  "clipsDeleteConfirmTitle": "{count, plural, =1{Delete this clip?} other{Delete {count} clips?}}",
+  "@clipsDeleteConfirmTitle": {
+    "description": "Confirmation dialog title for deleting clips",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsDeleteConfirmBody": "{count, plural, =1{The video is permanently removed from your iPhone. This can't be undone.} other{These videos are permanently removed from your iPhone. This can't be undone.}}",
+  "@clipsDeleteConfirmBody": {
+    "description": "Confirmation dialog body for deleting clips",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsDeleted": "{count, plural, =1{Clip deleted} other{{count} clips deleted}}",
+  "@clipsDeleted": {
+    "description": "Snackbar after deleting clips",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsEmptyTitle": "No clips yet",
+  "@clipsEmptyTitle": {
+    "description": "Empty state title in the clips gallery"
+  },
+  "clipsEmptyBody": "While you drive, Corvista keeps a short rolling buffer. Tap Save Incident to keep the last seconds of footage here.",
+  "@clipsEmptyBody": {
+    "description": "Empty state body in the clips gallery"
+  },
+  "clipsLoadError": "Couldn't load your clips.",
+  "@clipsLoadError": {
+    "description": "Error loading clips"
+  },
+  "clipsStorageTitle": "Storage",
+  "@clipsStorageTitle": {
+    "description": "Storage section title"
+  },
+  "clipsStorageUsage": "Clips {clips} · Buffer {buffer} · {free} free",
+  "@clipsStorageUsage": {
+    "description": "Storage usage summary line",
+    "placeholders": {
+      "clips": {
+        "type": "String"
+      },
+      "buffer": {
+        "type": "String"
+      },
+      "free": {
+        "type": "String"
+      }
+    }
+  },
+  "clipsStorageCount": "{count, plural, =0{No saved clips} =1{1 saved clip} other{{count} saved clips}}",
+  "@clipsStorageCount": {
+    "description": "Number of saved clips",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsStorageLow": "Your iPhone is low on storage. New incidents may fail to save.",
+  "@clipsStorageLow": {
+    "description": "Warning when free storage is low"
+  },
+  "clipsMissingFile": "File missing",
+  "@clipsMissingFile": {
+    "description": "Badge when a clip's video file can't be found"
+  },
+  "clipsEmergencyBadge": "Impact",
+  "@clipsEmergencyBadge": {
+    "description": "Badge for a clip saved automatically after a possible impact"
+  },
+  "clipsUntitled": "Incident · {date}",
+  "@clipsUntitled": {
+    "description": "Fallback clip title using its date",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "clipsAudio": "Audio recorded",
+  "@clipsAudio": {
+    "description": "Accessibility label for the audio icon"
+  },
+  "clipsFavorite": "Favorite",
+  "@clipsFavorite": {
+    "description": "Favorite badge / action"
+  },
+  "clipsUnfavorite": "Remove from favorites",
+  "@clipsUnfavorite": {
+    "description": "Remove favorite action"
+  },
+  "clipsLocation": "Location saved",
+  "@clipsLocation": {
+    "description": "Accessibility label for location icon"
+  },
+  "clipsOpenClip": "Open clip {title}",
+  "@clipsOpenClip": {
+    "description": "Accessibility label for a clip tile",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "playerNotFoundTitle": "Clip not found",
+  "@playerNotFoundTitle": {
+    "description": "Player: clip id doesn't exist (deleted)"
+  },
+  "playerNotFoundBody": "This clip may have been deleted.",
+  "@playerNotFoundBody": {
+    "description": "Player: clip not found body"
+  },
+  "playerMissingTitle": "Video file missing",
+  "@playerMissingTitle": {
+    "description": "Player: the video file can't be found on disk"
+  },
+  "playerMissingBody": "The recording for this clip is no longer on your iPhone. You can remove the entry from your gallery.",
+  "@playerMissingBody": {
+    "description": "Player: missing file body"
+  },
+  "playerRemoveEntry": "Remove entry",
+  "@playerRemoveEntry": {
+    "description": "Player: delete a clip entry whose file is missing"
+  },
+  "playerLoadError": "This video can't be played.",
+  "@playerLoadError": {
+    "description": "Player: video failed to initialize"
+  },
+  "playerPlay": "Play",
+  "@playerPlay": {
+    "description": "Play button"
+  },
+  "playerPause": "Pause",
+  "@playerPause": {
+    "description": "Pause button"
+  },
+  "playerReplay": "Replay",
+  "@playerReplay": {
+    "description": "Replay button at the end of the video"
+  },
+  "playerRenameTitle": "Rename clip",
+  "@playerRenameTitle": {
+    "description": "Rename dialog title"
+  },
+  "playerRenameHint": "Clip name",
+  "@playerRenameHint": {
+    "description": "Rename text field hint"
+  },
+  "playerRenamed": "Clip renamed",
+  "@playerRenamed": {
+    "description": "Snackbar after rename"
+  },
+  "playerFavorited": "Added to favorites",
+  "@playerFavorited": {
+    "description": "Snackbar after favoriting"
+  },
+  "playerUnfavorited": "Removed from favorites",
+  "@playerUnfavorited": {
+    "description": "Snackbar after unfavoriting"
+  },
+  "playerShareFailed": "Couldn't share this clip.",
+  "@playerShareFailed": {
+    "description": "Share failed"
+  },
+  "playerDetails": "Details",
+  "@playerDetails": {
+    "description": "Metadata panel title"
+  },
+  "playerDate": "Recorded",
+  "@playerDate": {
+    "description": "Metadata label: recording date"
+  },
+  "playerDuration": "Duration",
+  "@playerDuration": {
+    "description": "Metadata label"
+  },
+  "playerResolution": "Resolution",
+  "@playerResolution": {
+    "description": "Metadata label"
+  },
+  "playerSize": "File size",
+  "@playerSize": {
+    "description": "Metadata label"
+  },
+  "playerAudio": "Audio",
+  "@playerAudio": {
+    "description": "Metadata label"
+  },
+  "playerAudioYes": "Recorded",
+  "@playerAudioYes": {
+    "description": "Metadata value: audio present"
+  },
+  "playerAudioNo": "Not recorded",
+  "@playerAudioNo": {
+    "description": "Metadata value: no audio"
+  },
+  "playerReason": "Saved by",
+  "@playerReason": {
+    "description": "Metadata label: what triggered the save"
+  },
+  "playerReasonManual": "Save Incident button",
+  "@playerReasonManual": {
+    "description": "Metadata value: manual save"
+  },
+  "playerReasonEmergency": "Possible impact detection",
+  "@playerReasonEmergency": {
+    "description": "Metadata value: automatic emergency save"
+  },
+  "playerReasonRecovered": "Recovered after interruption",
+  "@playerReasonRecovered": {
+    "description": "Metadata value: clip recovered after app termination"
+  },
+  "playerSpeed": "GPS speed at save",
+  "@playerSpeed": {
+    "description": "Metadata label"
+  },
+  "playerLocation": "Location",
+  "@playerLocation": {
+    "description": "Metadata label"
+  },
+  "playerOpenInMaps": "Open in Maps",
+  "@playerOpenInMaps": {
+    "description": "Opens the clip location in Apple Maps"
+  },
+  "playerBack": "Back",
+  "@playerBack": {
+    "description": "Back button accessibility label"
+  },
+  "playerMore": "More actions",
+  "@playerMore": {
+    "description": "Overflow menu accessibility label"
+  },
+  "clipsFilterLabel": "Show",
+  "@clipsFilterLabel": {
+    "description": "Accessibility label of the clip category filter row"
+  },
+  "clipsFilterAll": "All",
+  "@clipsFilterAll": {
+    "description": "Clip filter: every clip"
+  },
+  "clipsFilterRecordings": "Recordings",
+  "@clipsFilterRecordings": {
+    "description": "Clip filter: manual continuous recordings (Record button)"
+  },
+  "clipsFilterIncidents": "Incidents",
+  "@clipsFilterIncidents": {
+    "description": "Clip filter: clips saved with Save Incident"
+  },
+  "clipsFilterEmergency": "Emergency",
+  "@clipsFilterEmergency": {
+    "description": "Clip filter: clips saved by impact / emergency detection"
+  },
+  "clipsFilterFavorites": "Favorites",
+  "@clipsFilterFavorites": {
+    "description": "Clip filter: starred clips"
+  },
+  "clipsSort": "Sort",
+  "@clipsSort": {
+    "description": "Sort menu button tooltip in the clips library"
+  },
+  "clipsSortNewest": "Newest first",
+  "@clipsSortNewest": {
+    "description": "Clip sort option"
+  },
+  "clipsSortOldest": "Oldest first",
+  "@clipsSortOldest": {
+    "description": "Clip sort option"
+  },
+  "clipsSortLongest": "Longest first",
+  "@clipsSortLongest": {
+    "description": "Clip sort option"
+  },
+  "clipsSortLargest": "Largest first",
+  "@clipsSortLargest": {
+    "description": "Clip sort option (file size)"
+  },
+  "clipsToday": "Today",
+  "@clipsToday": {
+    "description": "Date group header for clips recorded today"
+  },
+  "clipsYesterday": "Yesterday",
+  "@clipsYesterday": {
+    "description": "Date group header for clips recorded yesterday"
+  },
+  "clipsGroupSummary": "{count, plural, =1{1 clip} other{{count} clips}} · {size}",
+  "@clipsGroupSummary": {
+    "description": "Trailing text of a date group header: number of clips and their total size",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "clipsFilterEmpty": "No clips in this category yet.",
+  "@clipsFilterEmpty": {
+    "description": "Empty state when the selected clip filter matches nothing"
+  },
+  "clipsFavoritesEmpty": "Star a clip to keep it here for quick access.",
+  "@clipsFavoritesEmpty": {
+    "description": "Empty state of the Favorites clip filter"
+  },
+  "clipsKindRecording": "Recording",
+  "@clipsKindRecording": {
+    "description": "Badge on a manual (Record button) clip"
+  },
+  "clipsKindIncident": "Incident",
+  "@clipsKindIncident": {
+    "description": "Badge on a Save Incident clip"
+  },
+  "clipsKindEmergency": "Emergency",
+  "@clipsKindEmergency": {
+    "description": "Badge on a clip saved by impact / emergency detection"
+  },
+  "clipsKindTest": "Test",
+  "@clipsKindTest": {
+    "description": "Badge on a clip recorded from test footage"
+  },
+  "clipsTripChip": "Trip · {time}",
+  "@clipsTripChip": {
+    "description": "Chip on a clip linking to the trip it was recorded in; time = trip start time",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "clipsOpenTrip": "Open the trip this clip was recorded in",
+  "@clipsOpenTrip": {
+    "description": "Accessibility hint of the trip chip on a clip"
+  },
+  "clipsStorageUsedFree": "{used} used · {free} free",
+  "@clipsStorageUsedFree": {
+    "description": "Storage header line: device storage used and free",
+    "placeholders": {
+      "used": {
+        "type": "String"
+      },
+      "free": {
+        "type": "String"
+      }
+    }
+  },
+  "clipsStorageClips": "Clips use {size}",
+  "@clipsStorageClips": {
+    "description": "Storage header: space used by saved clips",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "clipsCountRecordings": "{count, plural, =1{1 recording} other{{count} recordings}}",
+  "@clipsCountRecordings": {
+    "description": "Storage header count of manual recordings",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsCountIncidents": "{count, plural, =1{1 incident} other{{count} incidents}}",
+  "@clipsCountIncidents": {
+    "description": "Storage header count of incident clips",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsCountEmergency": "{count, plural, =1{1 emergency} other{{count} emergencies}}",
+  "@clipsCountEmergency": {
+    "description": "Storage header count of emergency clips",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsFreeUpSpace": "Free up space",
+  "@clipsFreeUpSpace": {
+    "description": "Storage header button that removes temporary files (never saved clips)"
+  },
+  "clipsStorageLowGentle": "Less than 2 GB free. To keep recording smoothly, free up space or remove clips you no longer need.",
+  "@clipsStorageLowGentle": {
+    "description": "Gentle low-storage warning in the clips library"
+  },
+  "clipsSaveToPhotos": "Save to Photos",
+  "@clipsSaveToPhotos": {
+    "description": "Action: copy clip(s) into the iPhone photo library"
+  },
+  "clipsSelectionSummary": "{count, plural, =1{1 clip} other{{count} clips}} · {size}",
+  "@clipsSelectionSummary": {
+    "description": "Selection bar summary: number of selected clips and their total size",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "clipsDeleteConfirmTitleSize": "{count, plural, =1{Delete this clip ({size})?} other{Delete {count} clips ({size})?}}",
+  "@clipsDeleteConfirmTitleSize": {
+    "description": "Confirmation title for deleting selected clips, with their total size",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "clipsSavingToPhotos": "Saving {done} of {total} to Photos…",
+  "@clipsSavingToPhotos": {
+    "description": "Progress dialog while saving clips to Photos",
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsPhotosSaved": "{count, plural, =1{Saved to Photos} other{{count} clips saved to Photos}}",
+  "@clipsPhotosSaved": {
+    "description": "Result after saving clips to Photos",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsPhotosPartial": "{saved} saved to Photos · {failed} couldn't be saved",
+  "@clipsPhotosPartial": {
+    "description": "Result when some clips could not be saved to Photos",
+    "placeholders": {
+      "saved": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsPhotosDenied": "Corvista isn't allowed to add videos to Photos. You can allow it in Settings.",
+  "@clipsPhotosDenied": {
+    "description": "Shown when add-only Photos access is denied"
+  },
+  "clipsPhotosFailed": "Couldn't save to Photos.",
+  "@clipsPhotosFailed": {
+    "description": "Shown when saving to Photos failed"
+  },
+  "clipsFavoritedMany": "{count, plural, =1{Added to favorites} other{{count} clips added to favorites}}",
+  "@clipsFavoritedMany": {
+    "description": "Result after starring selected clips",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsUnfavoritedMany": "{count, plural, =1{Removed from favorites} other{{count} clips removed from favorites}}",
+  "@clipsUnfavoritedMany": {
+    "description": "Result after un-starring selected clips",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "clipsTrimmedTitle": "{title} (trimmed)",
+  "@clipsTrimmedTitle": {
+    "description": "Default name of a clip created by trimming another clip",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "playerTrim": "Trim",
+  "@playerTrim": {
+    "description": "Player action: cut a shorter clip from this clip"
+  },
+  "playerInfo": "Info",
+  "@playerInfo": {
+    "description": "Player action: show clip details sheet"
+  },
+  "playerKind": "Type",
+  "@playerKind": {
+    "description": "Clip details row: clip kind (recording / incident / emergency)"
+  },
+  "playerReasonRecording": "Record button",
+  "@playerReasonRecording": {
+    "description": "Clip details: clip came from manual recording"
+  },
+  "trimTitle": "Trim clip",
+  "@trimTitle": {
+    "description": "Trim screen title"
+  },
+  "trimHint": "Drag the handles to choose the part to keep. The original clip stays unchanged.",
+  "@trimHint": {
+    "description": "Trim screen instructions"
+  },
+  "trimStartHandle": "Trim start",
+  "@trimStartHandle": {
+    "description": "Accessibility label of the trim start handle"
+  },
+  "trimEndHandle": "Trim end",
+  "@trimEndHandle": {
+    "description": "Accessibility label of the trim end handle"
+  },
+  "trimSelection": "{duration} selected",
+  "@trimSelection": {
+    "description": "Trim screen: length of the kept range",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "trimSave": "Save as new clip",
+  "@trimSave": {
+    "description": "Trim screen primary button"
+  },
+  "trimSaving": "Saving trimmed clip…",
+  "@trimSaving": {
+    "description": "Trim screen progress text"
+  },
+  "trimSaved": "Trimmed clip saved",
+  "@trimSaved": {
+    "description": "Snackbar after a trimmed clip was saved"
+  },
+  "trimOpenNew": "Open",
+  "@trimOpenNew": {
+    "description": "Snackbar action that opens the new trimmed clip"
+  },
+  "trimFailed": "Couldn't trim this clip.",
+  "@trimFailed": {
+    "description": "Trim error"
+  },
+  "trimStorageFull": "Not enough free space to save the trimmed clip.",
+  "@trimStorageFull": {
+    "description": "Trim error when storage is full"
+  },
+  "trimPreview": "Play selection",
+  "@trimPreview": {
+    "description": "Trim screen: play the selected range"
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "Settings screen title"
+  },
+  "settingsSectionCamera": "Camera",
+  "@settingsSectionCamera": {
+    "description": "Settings section"
+  },
+  "settingsSectionAi": "AI",
+  "@settingsSectionAi": {
+    "description": "Settings section"
+  },
+  "settingsSectionAlerts": "Alerts",
+  "@settingsSectionAlerts": {
+    "description": "Settings section"
+  },
+  "settingsSectionAlertCategories": "Alert categories",
+  "@settingsSectionAlertCategories": {
+    "description": "Settings section listing which objects trigger voice alerts"
+  },
+  "settingsSectionRecording": "Recording",
+  "@settingsSectionRecording": {
+    "description": "Settings section"
+  },
+  "settingsSectionDriving": "Driving",
+  "@settingsSectionDriving": {
+    "description": "Settings section"
+  },
+  "settingsSectionPower": "Power",
+  "@settingsSectionPower": {
+    "description": "Settings section"
+  },
+  "settingsSectionEmergency": "Emergency",
+  "@settingsSectionEmergency": {
+    "description": "Settings section"
+  },
+  "settingsSectionAppearance": "Appearance",
+  "@settingsSectionAppearance": {
+    "description": "Settings section"
+  },
+  "settingsSectionLanguage": "Language",
+  "@settingsSectionLanguage": {
+    "description": "Settings section"
+  },
+  "settingsSectionInformation": "Information",
+  "@settingsSectionInformation": {
+    "description": "Settings section"
+  },
+  "settingsCameraLens": "Camera lens",
+  "@settingsCameraLens": {
+    "description": "Setting: which rear camera to use"
+  },
+  "settingsLensWide": "Wide",
+  "@settingsLensWide": {
+    "description": "Camera lens option"
+  },
+  "settingsLensUltraWide": "Ultra Wide",
+  "@settingsLensUltraWide": {
+    "description": "Camera lens option"
+  },
+  "settingsLensTelephoto": "Telephoto",
+  "@settingsLensTelephoto": {
+    "description": "Camera lens option"
+  },
+  "settingsLensUnavailable": "Not available on this iPhone",
+  "@settingsLensUnavailable": {
+    "description": "Shown under a lens option the device lacks"
+  },
+  "settingsStabilization": "Stabilization",
+  "@settingsStabilization": {
+    "description": "Setting: video stabilization mode"
+  },
+  "settingsStabAuto": "Automatic",
+  "@settingsStabAuto": {
+    "description": "Stabilization option"
+  },
+  "settingsStabOff": "Off",
+  "@settingsStabOff": {
+    "description": "Stabilization option"
+  },
+  "settingsStabStandard": "Standard",
+  "@settingsStabStandard": {
+    "description": "Stabilization option"
+  },
+  "settingsStabCinematic": "Cinematic",
+  "@settingsStabCinematic": {
+    "description": "Stabilization option"
+  },
+  "settingsOverlayOpacity": "Overlay opacity",
+  "@settingsOverlayOpacity": {
+    "description": "Setting: opacity of detection boxes"
+  },
+  "settingsShowFps": "Show performance stats",
+  "@settingsShowFps": {
+    "description": "Setting toggle"
+  },
+  "settingsShowFpsSubtitle": "Frame rate and inference time on the detection view",
+  "@settingsShowFpsSubtitle": {
+    "description": "Subtitle of performance stats toggle"
+  },
+  "settingsCameraFooter": "Lens and stabilization changes apply the next time the camera starts.",
+  "@settingsCameraFooter": {
+    "description": "Footer under camera settings"
+  },
+  "settingsAiModel": "AI model",
+  "@settingsAiModel": {
+    "description": "Opens the AI model list"
+  },
+  "settingsConfidence": "Detection confidence",
+  "@settingsConfidence": {
+    "description": "Setting: minimum confidence threshold"
+  },
+  "settingsTracking": "Object tracking",
+  "@settingsTracking": {
+    "description": "Setting toggle"
+  },
+  "settingsTrackingSubtitle": "Keeps objects stable between frames",
+  "@settingsTrackingSubtitle": {
+    "description": "Subtitle of tracking toggle"
+  },
+  "settingsShowLabels": "Show labels",
+  "@settingsShowLabels": {
+    "description": "Setting toggle: object labels on boxes"
+  },
+  "settingsShowConfidence": "Show confidence",
+  "@settingsShowConfidence": {
+    "description": "Setting toggle: confidence percentage on boxes"
+  },
+  "settingsSegmentationOpacity": "Perception mask opacity",
+  "@settingsSegmentationOpacity": {
+    "description": "Setting: opacity of segmentation masks"
+  },
+  "settingsAiFooter": "A lower confidence shows more objects but also more false detections. Detections may be inaccurate.",
+  "@settingsAiFooter": {
+    "description": "Footer under AI settings"
+  },
+  "settingsVoiceAlerts": "Voice alerts",
+  "@settingsVoiceAlerts": {
+    "description": "Setting toggle"
+  },
+  "settingsVoiceLanguage": "Voice language",
+  "@settingsVoiceLanguage": {
+    "description": "Setting: language for spoken alerts"
+  },
+  "settingsVoiceLanguageAuto": "Match app language",
+  "@settingsVoiceLanguageAuto": {
+    "description": "Voice language option following the app language"
+  },
+  "settingsVoice": "Voice",
+  "@settingsVoice": {
+    "description": "Setting: which installed voice speaks alerts"
+  },
+  "settingsVoiceDefault": "System default",
+  "@settingsVoiceDefault": {
+    "description": "Default voice option"
+  },
+  "settingsVoiceQualityEnhanced": "Enhanced",
+  "@settingsVoiceQualityEnhanced": {
+    "description": "Voice quality label"
+  },
+  "settingsVoiceQualityPremium": "High quality",
+  "@settingsVoiceQualityPremium": {
+    "description": "Voice quality label (iOS premium voice)"
+  },
+  "settingsNoVoices": "No voice is installed for this language. Add one in iOS Settings › Accessibility › Spoken Content.",
+  "@settingsNoVoices": {
+    "description": "Shown when no TTS voice exists for the chosen language"
+  },
+  "settingsAlertPedestrian": "Pedestrians",
+  "@settingsAlertPedestrian": {
+    "description": "Alert category toggle"
+  },
+  "settingsAlertCyclist": "Cyclists",
+  "@settingsAlertCyclist": {
+    "description": "Alert category toggle"
+  },
+  "settingsAlertMotorcycle": "Motorcycles",
+  "@settingsAlertMotorcycle": {
+    "description": "Alert category toggle"
+  },
+  "settingsAlertBus": "Buses",
+  "@settingsAlertBus": {
+    "description": "Alert category toggle"
+  },
+  "settingsAlertVehicleClose": "Vehicle very close ahead",
+  "@settingsAlertVehicleClose": {
+    "description": "Alert category toggle"
+  },
+  "settingsAlertTrafficLight": "Traffic light changes",
+  "@settingsAlertTrafficLight": {
+    "description": "Alert category toggle"
+  },
+  "settingsAlertTrafficMoving": "Traffic ahead moving",
+  "@settingsAlertTrafficMoving": {
+    "description": "Alert category toggle"
+  },
+  "settingsAlertStopSign": "Stop signs",
+  "@settingsAlertStopSign": {
+    "description": "Alert category toggle"
+  },
+  "settingsSensitivity": "Sensitivity",
+  "@settingsSensitivity": {
+    "description": "Setting: alert sensitivity"
+  },
+  "settingsSensitivityLow": "Low",
+  "@settingsSensitivityLow": {
+    "description": "Sensitivity option"
+  },
+  "settingsSensitivityMedium": "Medium",
+  "@settingsSensitivityMedium": {
+    "description": "Sensitivity option"
+  },
+  "settingsSensitivityHigh": "High",
+  "@settingsSensitivityHigh": {
+    "description": "Sensitivity option"
+  },
+  "settingsCooldown": "Repeat interval",
+  "@settingsCooldown": {
+    "description": "Setting: minimum time before the same alert repeats"
+  },
+  "settingsSecondsShort": "{seconds} s",
+  "@settingsSecondsShort": {
+    "description": "Compact seconds value",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsVolume": "Voice volume",
+  "@settingsVolume": {
+    "description": "Setting slider"
+  },
+  "settingsQuietMode": "Quiet mode",
+  "@settingsQuietMode": {
+    "description": "Setting toggle"
+  },
+  "settingsQuietModeSubtitle": "Only the most important alerts are spoken",
+  "@settingsQuietModeSubtitle": {
+    "description": "Subtitle of quiet mode toggle"
+  },
+  "settingsTestVoice": "Test voice",
+  "@settingsTestVoice": {
+    "description": "Button: speak a sample alert"
+  },
+  "settingsTestVoiceDone": "Playing a sample alert…",
+  "@settingsTestVoiceDone": {
+    "description": "Snackbar after test voice"
+  },
+  "settingsParkingBeeps": "Parking beeps",
+  "@settingsParkingBeeps": {
+    "description": "Setting toggle"
+  },
+  "settingsBeepVolume": "Beep volume",
+  "@settingsBeepVolume": {
+    "description": "Setting slider"
+  },
+  "settingsAlertsFooter": "Alerts are an aid only. Always watch the road — silence doesn't mean the way is clear.",
+  "@settingsAlertsFooter": {
+    "description": "Footer under alert settings"
+  },
+  "settingsRecordingProfile": "Recording quality",
+  "@settingsRecordingProfile": {
+    "description": "Setting: incident clip resolution"
+  },
+  "settingsProfileStandard": "Standard · 720p",
+  "@settingsProfileStandard": {
+    "description": "Recording profile option"
+  },
+  "settingsProfilePremium": "Full HD · 1080p",
+  "@settingsProfilePremium": {
+    "description": "Recording profile option"
+  },
+  "settingsBufferLength": "Incident buffer",
+  "@settingsBufferLength": {
+    "description": "Setting: seconds kept in the rolling buffer"
+  },
+  "settingsBufferSeconds": "{seconds} seconds",
+  "@settingsBufferSeconds": {
+    "description": "Buffer length option",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsManualMaxLength": "Manual recording max length",
+  "@settingsManualMaxLength": {
+    "description": "Recording settings: auto-stop length for manual recording"
+  },
+  "settingsManualMaxUnlimited": "Unlimited",
+  "@settingsManualMaxUnlimited": {
+    "description": "Manual recording max length option: no limit"
+  },
+  "settingsManualMaxMinutes": "{minutes} min",
+  "@settingsManualMaxMinutes": {
+    "description": "Manual recording max length option",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsRecordAudio": "Record audio",
+  "@settingsRecordAudio": {
+    "description": "Setting toggle"
+  },
+  "settingsRecordAudioSubtitle": "Includes cabin audio in saved incidents",
+  "@settingsRecordAudioSubtitle": {
+    "description": "Subtitle of audio toggle"
+  },
+  "settingsMicDenied": "Microphone access is off. Allow it in Settings to record audio.",
+  "@settingsMicDenied": {
+    "description": "Shown when microphone permission is denied"
+  },
+  "settingsWatermark": "Corvista watermark",
+  "@settingsWatermark": {
+    "description": "Setting toggle"
+  },
+  "settingsTimestamp": "Date & time stamp",
+  "@settingsTimestamp": {
+    "description": "Setting toggle"
+  },
+  "settingsSaveLocation": "Save location with clips",
+  "@settingsSaveLocation": {
+    "description": "Setting toggle"
+  },
+  "settingsStorage": "Storage & clips",
+  "@settingsStorage": {
+    "description": "Opens the clips gallery"
+  },
+  "settingsStorageSummary": "{count, plural, =0{No clips} =1{1 clip} other{{count} clips}} · {used} used · {free} free",
+  "@settingsStorageSummary": {
+    "description": "Storage summary line",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "used": {
+        "type": "String"
+      },
+      "free": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsRecordingFooter": "The rolling buffer stays on your iPhone and is overwritten continuously. Nothing is recorded in the background.",
+  "@settingsRecordingFooter": {
+    "description": "Footer under recording settings"
+  },
+  "settingsDefaultView": "Default view",
+  "@settingsDefaultView": {
+    "description": "Setting: view shown when a drive starts"
+  },
+  "settingsUnits": "Units",
+  "@settingsUnits": {
+    "description": "Setting: speed/distance units"
+  },
+  "settingsShowCompass": "Show compass",
+  "@settingsShowCompass": {
+    "description": "Setting toggle"
+  },
+  "settingsHudStyle": "HUD style",
+  "@settingsHudStyle": {
+    "description": "Setting: heads-up display style"
+  },
+  "settingsHudCustomize": "Customize HUD",
+  "@settingsHudCustomize": {
+    "description": "Opens HUD customization"
+  },
+  "settingsDrivingSide": "Driving side",
+  "@settingsDrivingSide": {
+    "description": "Settings › Driving: which side of the road traffic drives on (affects the virtual view's stylized road)"
+  },
+  "settingsDrivingSideAuto": "Automatic",
+  "@settingsDrivingSideAuto": {
+    "description": "Driving side option: follow the device region"
+  },
+  "settingsDrivingSideRight": "Right",
+  "@settingsDrivingSideRight": {
+    "description": "Driving side option: right-hand traffic"
+  },
+  "settingsDrivingSideLeft": "Left",
+  "@settingsDrivingSideLeft": {
+    "description": "Driving side option: left-hand traffic"
+  },
+  "settingsVirtualStyle": "Virtual view style",
+  "@settingsVirtualStyle": {
+    "description": "Setting: rendering style of the virtual view"
+  },
+  "settingsVirtualMinimal": "Minimal",
+  "@settingsVirtualMinimal": {
+    "description": "Virtual style option"
+  },
+  "settingsVirtualPerspective": "Perspective",
+  "@settingsVirtualPerspective": {
+    "description": "Virtual style option"
+  },
+  "settingsVirtualHighContrast": "High contrast",
+  "@settingsVirtualHighContrast": {
+    "description": "Virtual style option"
+  },
+  "settingsKeepScreenOn": "Keep screen on while driving",
+  "@settingsKeepScreenOn": {
+    "description": "Setting toggle"
+  },
+  "settingsLiveActivity": "Live Activity",
+  "@settingsLiveActivity": {
+    "description": "Setting toggle: turn-by-turn Live Activity"
+  },
+  "settingsLiveActivityDesc": "Show turn-by-turn directions on the Lock Screen and in the Dynamic Island",
+  "@settingsLiveActivityDesc": {
+    "description": "Setting toggle subtitle"
+  },
+  "driveRecordingPausedBackground": "Recording paused while Corvista was in the background",
+  "@driveRecordingPausedBackground": {
+    "description": "Drive banner after returning from the background during a drive (iOS stops the camera in the background)"
+  },
+  "liveActivityRec": "REC",
+  "@liveActivityRec": {
+    "description": "Live Activity dashcam badge: recording (keep very short)"
+  },
+  "liveActivityPaused": "Paused",
+  "@liveActivityPaused": {
+    "description": "Live Activity dashcam badge: recording paused (keep short)"
+  },
+  "liveActivityDashcamOff": "Cam off",
+  "@liveActivityDashcamOff": {
+    "description": "Live Activity dashcam badge: dashcam not running (keep short)"
+  },
+  "liveActivityEnded": "Navigation ended",
+  "@liveActivityEnded": {
+    "description": "Live Activity final state when navigation is cancelled"
+  },
+  "liveActivityEta": "Arrival",
+  "@liveActivityEta": {
+    "description": "Live Activity label before the arrival time"
+  },
+  "settingsAutoRecenter": "Auto-recenter map",
+  "@settingsAutoRecenter": {
+    "description": "Setting toggle"
+  },
+  "settingsHudStyleClassic": "Classic",
+  "@settingsHudStyleClassic": {
+    "description": "HUD style name"
+  },
+  "settingsHudStyleGrid": "Grid",
+  "@settingsHudStyleGrid": {
+    "description": "HUD style name"
+  },
+  "settingsHudStyleMinimal": "Minimal",
+  "@settingsHudStyleMinimal": {
+    "description": "HUD style name"
+  },
+  "settingsHudStylePerformance": "Performance",
+  "@settingsHudStylePerformance": {
+    "description": "HUD style name"
+  },
+  "settingsHudStyleNavigation": "Navigation",
+  "@settingsHudStyleNavigation": {
+    "description": "HUD style name"
+  },
+  "settingsHudStyleNight": "Night",
+  "@settingsHudStyleNight": {
+    "description": "HUD style name"
+  },
+  "settingsHudStyleHighContrast": "High contrast",
+  "@settingsHudStyleHighContrast": {
+    "description": "HUD style name"
+  },
+  "settingsPowerMode": "Power mode",
+  "@settingsPowerMode": {
+    "description": "Setting: performance/battery trade-off"
+  },
+  "settingsPowerBalanced": "Balanced",
+  "@settingsPowerBalanced": {
+    "description": "Power mode option"
+  },
+  "settingsPowerPerformance": "Performance",
+  "@settingsPowerPerformance": {
+    "description": "Power mode option"
+  },
+  "settingsPowerSaver": "Power saver",
+  "@settingsPowerSaver": {
+    "description": "Power mode option"
+  },
+  "settingsPowerFooter": "Corvista lowers AI rate and visual effects automatically when your iPhone gets warm or the battery is low.",
+  "@settingsPowerFooter": {
+    "description": "Footer under power settings"
+  },
+  "settingsThermal": "Thermal state",
+  "@settingsThermal": {
+    "description": "Live device thermal state"
+  },
+  "settingsThermalNominal": "Normal",
+  "@settingsThermalNominal": {
+    "description": "Thermal state"
+  },
+  "settingsThermalFair": "Warm",
+  "@settingsThermalFair": {
+    "description": "Thermal state"
+  },
+  "settingsThermalSerious": "Hot",
+  "@settingsThermalSerious": {
+    "description": "Thermal state"
+  },
+  "settingsThermalCritical": "Critical",
+  "@settingsThermalCritical": {
+    "description": "Thermal state"
+  },
+  "settingsBattery": "Battery",
+  "@settingsBattery": {
+    "description": "Live battery level"
+  },
+  "settingsBatteryCharging": "{percent} · Charging",
+  "@settingsBatteryCharging": {
+    "description": "Battery level while charging",
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsLowPowerMode": "Low Power Mode is on — AI runs at a reduced rate.",
+  "@settingsLowPowerMode": {
+    "description": "Shown when iOS Low Power Mode is enabled"
+  },
+  "settingsAiRate": "Current AI rate",
+  "@settingsAiRate": {
+    "description": "Live detection rate"
+  },
+  "settingsHzValue": "{value} Hz",
+  "@settingsHzValue": {
+    "description": "Frequency value",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsEmergencySetup": "Impact detection",
+  "@settingsEmergencySetup": {
+    "description": "Opens emergency setup"
+  },
+  "settingsEmergencyOn": "On · {seconds} s countdown",
+  "@settingsEmergencyOn": {
+    "description": "Emergency status when enabled",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsEmergencyFooter": "Experimental. Not a substitute for emergency services.",
+  "@settingsEmergencyFooter": {
+    "description": "Footer under emergency settings"
+  },
+  "settingsTheme": "Theme",
+  "@settingsTheme": {
+    "description": "Setting: app color theme"
+  },
+  "settingsThemeSystem": "System",
+  "@settingsThemeSystem": {
+    "description": "Theme option"
+  },
+  "settingsThemeDark": "Dark",
+  "@settingsThemeDark": {
+    "description": "Theme option"
+  },
+  "settingsThemeLight": "Light",
+  "@settingsThemeLight": {
+    "description": "Theme option"
+  },
+  "settingsReduceMotion": "Reduce motion",
+  "@settingsReduceMotion": {
+    "description": "Setting toggle"
+  },
+  "settingsReduceMotionSubtitle": "Minimizes animations across the app",
+  "@settingsReduceMotionSubtitle": {
+    "description": "Subtitle of reduce motion toggle"
+  },
+  "settingsAppLanguage": "App language",
+  "@settingsAppLanguage": {
+    "description": "Opens the language list"
+  },
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "@settingsPrivacyPolicy": {
+    "description": "Information link"
+  },
+  "settingsTerms": "Terms of Use",
+  "@settingsTerms": {
+    "description": "Information link"
+  },
+  "settingsHelp": "Help",
+  "@settingsHelp": {
+    "description": "Information link"
+  },
+  "settingsSupport": "Contact support",
+  "@settingsSupport": {
+    "description": "Opens mail to support"
+  },
+  "settingsLicenses": "Open-source licences",
+  "@settingsLicenses": {
+    "description": "Information link to the third-party licence notices page"
+  },
+  "settingsSupportUnavailable": "Couldn't open Mail. Write to support@corvista.app.",
+  "@settingsSupportUnavailable": {
+    "description": "Shown when mailto fails"
+  },
+  "settingsSafety": "Safety information",
+  "@settingsSafety": {
+    "description": "Information link"
+  },
+  "settingsDiagnostics": "Diagnostics",
+  "@settingsDiagnostics": {
+    "description": "Opens diagnostics screen"
+  },
+  "settingsVersion": "Version",
+  "@settingsVersion": {
+    "description": "App version row"
+  },
+  "settingsVersionValue": "{version} ({build})",
+  "@settingsVersionValue": {
+    "description": "App version and build number",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "build": {
+        "type": "String"
+      }
+    }
+  },
+  "hudCustomTitle": "Customize HUD",
+  "@hudCustomTitle": {
+    "description": "HUD customization screen title"
+  },
+  "hudCustomPreview": "Preview · sample values",
+  "@hudCustomPreview": {
+    "description": "Caption of the HUD preview card"
+  },
+  "hudCustomStyle": "Style",
+  "@hudCustomStyle": {
+    "description": "Section title"
+  },
+  "hudCustomElements": "Elements",
+  "@hudCustomElements": {
+    "description": "Section title"
+  },
+  "hudCustomSpeed": "Speed",
+  "@hudCustomSpeed": {
+    "description": "HUD element toggle"
+  },
+  "hudCustomHeading": "Heading & compass",
+  "@hudCustomHeading": {
+    "description": "HUD element toggle"
+  },
+  "hudCustomClock": "Clock",
+  "@hudCustomClock": {
+    "description": "HUD element toggle"
+  },
+  "hudCustomBattery": "Battery & thermal",
+  "@hudCustomBattery": {
+    "description": "HUD element toggle"
+  },
+  "hudCustomDetections": "AI status & detections",
+  "@hudCustomDetections": {
+    "description": "HUD element toggle"
+  },
+  "hudCustomWeather": "Weather",
+  "@hudCustomWeather": {
+    "description": "HUD element toggle"
+  },
+  "hudCustomAppearance": "Size & opacity",
+  "@hudCustomAppearance": {
+    "description": "Section title"
+  },
+  "hudCustomSize": "Size",
+  "@hudCustomSize": {
+    "description": "HUD scale slider"
+  },
+  "hudCustomOpacity": "Opacity",
+  "@hudCustomOpacity": {
+    "description": "HUD opacity slider"
+  },
+  "hudCustomFooter": "Warnings such as overheating are always shown, even when elements are hidden.",
+  "@hudCustomFooter": {
+    "description": "Footer under HUD elements"
+  },
+  "hudCustomDescClassic": "Balanced instrument cluster",
+  "@hudCustomDescClassic": {
+    "description": "HUD style description"
+  },
+  "hudCustomDescGrid": "Perspective grid over the road",
+  "@hudCustomDescGrid": {
+    "description": "HUD style description"
+  },
+  "hudCustomDescMinimal": "Speed only, nothing else",
+  "@hudCustomDescMinimal": {
+    "description": "HUD style description"
+  },
+  "hudCustomDescPerformance": "Speed arc with live readouts",
+  "@hudCustomDescPerformance": {
+    "description": "HUD style description"
+  },
+  "hudCustomDescNavigation": "Next maneuver first",
+  "@hudCustomDescNavigation": {
+    "description": "HUD style description"
+  },
+  "hudCustomDescNight": "Dim and red-shifted for night driving",
+  "@hudCustomDescNight": {
+    "description": "HUD style description"
+  },
+  "hudCustomDescHighContrast": "Maximum legibility in bright sun",
+  "@hudCustomDescHighContrast": {
+    "description": "HUD style description"
+  },
+  "languageTitle": "Language",
+  "@languageTitle": {
+    "description": "Language screen title"
+  },
+  "languageSystem": "System default",
+  "@languageSystem": {
+    "description": "Language option following iOS"
+  },
+  "languageSystemSubtitle": "Follow your iPhone's language",
+  "@languageSystemSubtitle": {
+    "description": "Subtitle of system language option"
+  },
+  "languageFooter": "More languages are coming. The voice alert language can be set separately under Alerts.",
+  "@languageFooter": {
+    "description": "Footer on language screen"
+  },
+  "diagTitle": "Diagnostics",
+  "@diagTitle": {
+    "description": "Diagnostics screen title"
+  },
+  "diagPerformance": "Performance",
+  "@diagPerformance": {
+    "description": "Diagnostics section"
+  },
+  "diagInference": "Inference time",
+  "@diagInference": {
+    "description": "Diagnostics row"
+  },
+  "diagDetectHz": "Detection rate",
+  "@diagDetectHz": {
+    "description": "Diagnostics row"
+  },
+  "diagCameraFps": "Camera frame rate",
+  "@diagCameraFps": {
+    "description": "Diagnostics row"
+  },
+  "diagMemory": "Memory",
+  "@diagMemory": {
+    "description": "Diagnostics row"
+  },
+  "diagDropped": "Dropped frames",
+  "@diagDropped": {
+    "description": "Diagnostics row"
+  },
+  "diagSegmentation": "Segmentation time",
+  "@diagSegmentation": {
+    "description": "Diagnostics row"
+  },
+  "diagCamera": "Camera",
+  "@diagCamera": {
+    "description": "Diagnostics section"
+  },
+  "diagStatus": "Status",
+  "@diagStatus": {
+    "description": "Diagnostics row"
+  },
+  "diagSource": "Source",
+  "@diagSource": {
+    "description": "Diagnostics row"
+  },
+  "diagSourceCamera": "Live camera",
+  "@diagSourceCamera": {
+    "description": "Camera source value"
+  },
+  "diagSourceFile": "Test footage file",
+  "@diagSourceFile": {
+    "description": "Camera source value"
+  },
+  "diagResolution": "Buffer size",
+  "@diagResolution": {
+    "description": "Diagnostics row: camera buffer resolution"
+  },
+  "diagLens": "Lens",
+  "@diagLens": {
+    "description": "Diagnostics row"
+  },
+  "diagError": "Last error",
+  "@diagError": {
+    "description": "Diagnostics row"
+  },
+  "diagModel": "AI model",
+  "@diagModel": {
+    "description": "Diagnostics section"
+  },
+  "diagModelLoad": "Model load time",
+  "@diagModelLoad": {
+    "description": "Diagnostics row"
+  },
+  "diagPower": "Power",
+  "@diagPower": {
+    "description": "Diagnostics section"
+  },
+  "diagSegHz": "Segmentation rate",
+  "@diagSegHz": {
+    "description": "Diagnostics row"
+  },
+  "diagReduced": "Reduced effects",
+  "@diagReduced": {
+    "description": "Diagnostics row"
+  },
+  "diagMs": "{value} ms",
+  "@diagMs": {
+    "description": "Milliseconds value",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "diagFps": "{value} fps",
+  "@diagFps": {
+    "description": "Frames per second value",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "diagMb": "{value} MB",
+  "@diagMb": {
+    "description": "Megabytes value",
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "diagCamIdle": "Idle",
+  "@diagCamIdle": {
+    "description": "Camera status"
+  },
+  "diagCamStarting": "Starting",
+  "@diagCamStarting": {
+    "description": "Camera status"
+  },
+  "diagCamRunning": "Running",
+  "@diagCamRunning": {
+    "description": "Camera status"
+  },
+  "diagCamInterrupted": "Interrupted",
+  "@diagCamInterrupted": {
+    "description": "Camera status"
+  },
+  "diagCamStopped": "Stopped",
+  "@diagCamStopped": {
+    "description": "Camera status"
+  },
+  "diagCamUnavailable": "Unavailable",
+  "@diagCamUnavailable": {
+    "description": "Camera status"
+  },
+  "diagCamPermissionDenied": "Permission denied",
+  "@diagCamPermissionDenied": {
+    "description": "Camera status"
+  },
+  "diagCamError": "Error",
+  "@diagCamError": {
+    "description": "Camera status"
+  },
+  "diagTestFootage": "Test footage",
+  "@diagTestFootage": {
+    "description": "Diagnostics section"
+  },
+  "diagTestFootageBody": "Run real on-device detection on a local video file instead of the camera. Every view labels it TEST FOOTAGE.",
+  "@diagTestFootageBody": {
+    "description": "Explanation of test footage mode"
+  },
+  "diagPathLabel": "Video file path",
+  "@diagPathLabel": {
+    "description": "Text field label"
+  },
+  "diagPathHint": "/path/to/drive.mp4",
+  "@diagPathHint": {
+    "description": "Text field hint; keep as a path example"
+  },
+  "diagUseDocuments": "Use Documents/test_drive.mp4",
+  "@diagUseDocuments": {
+    "description": "Fills the path with a file in the app's Documents folder"
+  },
+  "diagRun": "Run test footage",
+  "@diagRun": {
+    "description": "Starts decoding the test file"
+  },
+  "diagRunStarted": "Test footage started. Open the drive view to see it.",
+  "@diagRunStarted": {
+    "description": "Snackbar after starting test footage"
+  },
+  "diagBackToCamera": "Return to live camera",
+  "@diagBackToCamera": {
+    "description": "Restarts the live camera"
+  },
+  "diagDebugOnly": "Test footage is only available in development builds.",
+  "@diagDebugOnly": {
+    "description": "Shown in release builds"
+  },
+  "diagFileMissing": "No file exists at that path.",
+  "@diagFileMissing": {
+    "description": "Validation error"
+  },
+  "emergencySetupTitle": "Impact detection",
+  "@emergencySetupTitle": {
+    "description": "Emergency setup screen title"
+  },
+  "emergencyExperimental": "Experimental",
+  "@emergencyExperimental": {
+    "description": "Badge on emergency feature"
+  },
+  "emergencyIntro": "During a drive, Corvista can watch for a possible severe impact using your iPhone's motion sensors. If one is detected, a countdown starts. If you don't cancel it, Corvista offers to call emergency services and message your contacts.",
+  "@emergencyIntro": {
+    "description": "Emergency feature explanation"
+  },
+  "emergencyDisclaimer1": "Not a substitute for emergency services or your vehicle's own crash detection.",
+  "@emergencyDisclaimer1": {
+    "description": "Emergency disclaimer bullet"
+  },
+  "emergencyDisclaimer2": "iOS always asks you to confirm before a call is placed or a message is sent.",
+  "@emergencyDisclaimer2": {
+    "description": "Emergency disclaimer bullet"
+  },
+  "emergencyDisclaimer3": "Impacts can be missed, and hard braking or bumps can be mistaken for one.",
+  "@emergencyDisclaimer3": {
+    "description": "Emergency disclaimer bullet"
+  },
+  "emergencyParkedWarning": "Complete this setup while parked. Settings are locked while the vehicle is moving.",
+  "@emergencyParkedWarning": {
+    "description": "Warning shown when speed exceeds 5 km/h"
+  },
+  "emergencyEnable": "Enable impact detection",
+  "@emergencyEnable": {
+    "description": "Toggle"
+  },
+  "emergencyEnableSubtitle": "Active only during a drive session",
+  "@emergencyEnableSubtitle": {
+    "description": "Subtitle of enable toggle"
+  },
+  "emergencyNeedNumber": "Add an emergency number first.",
+  "@emergencyNeedNumber": {
+    "description": "Validation message"
+  },
+  "emergencyContacts": "Emergency contacts",
+  "@emergencyContacts": {
+    "description": "Section title"
+  },
+  "emergencyAddContact": "Add contact",
+  "@emergencyAddContact": {
+    "description": "Button: pick a contact"
+  },
+  "emergencyNoContacts": "No contacts yet. Contacts get a message only after you confirm it.",
+  "@emergencyNoContacts": {
+    "description": "Empty contacts state"
+  },
+  "emergencyRemoveContactTitle": "Remove {name}?",
+  "@emergencyRemoveContactTitle": {
+    "description": "Confirm dialog title",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "emergencyRemoveContactBody": "They won't be offered as a recipient after an impact.",
+  "@emergencyRemoveContactBody": {
+    "description": "Confirm dialog body"
+  },
+  "emergencyRemove": "Remove",
+  "@emergencyRemove": {
+    "description": "Confirm button"
+  },
+  "emergencyContactsError": "Couldn't load contacts.",
+  "@emergencyContactsError": {
+    "description": "Error loading contacts"
+  },
+  "emergencyNumber": "Emergency number",
+  "@emergencyNumber": {
+    "description": "Setting: number to call"
+  },
+  "emergencyNumberHint": "e.g. 112 or 911",
+  "@emergencyNumberHint": {
+    "description": "Hint for emergency number field"
+  },
+  "emergencyMessage": "Message template",
+  "@emergencyMessage": {
+    "description": "Setting: text sent to contacts"
+  },
+  "emergencyMessageDefault": "I may have been in a vehicle accident. This message was prepared by Corvista and includes my last known location if available.",
+  "@emergencyMessageDefault": {
+    "description": "Default emergency message"
+  },
+  "emergencyMessageHint": "Leave empty to use the default message.",
+  "@emergencyMessageHint": {
+    "description": "Hint for message field"
+  },
+  "emergencyCountdown": "Countdown length",
+  "@emergencyCountdown": {
+    "description": "Setting"
+  },
+  "emergencyVoiceCancel": "Cancel by voice",
+  "@emergencyVoiceCancel": {
+    "description": "Toggle"
+  },
+  "emergencyVoiceCancelSubtitle": "Say “I'm OK” or “Cancel” during the countdown. Uses on-device speech recognition where available.",
+  "@emergencyVoiceCancelSubtitle": {
+    "description": "Subtitle of voice cancel toggle"
+  },
+  "emergencyVoicePermDenied": "Microphone and speech recognition access are needed for voice cancellation.",
+  "@emergencyVoicePermDenied": {
+    "description": "Shown when permission is denied"
+  },
+  "emergencyAutoSave": "Save incident clip automatically",
+  "@emergencyAutoSave": {
+    "description": "Toggle"
+  },
+  "emergencyTest": "Test countdown (no call)",
+  "@emergencyTest": {
+    "description": "Button: run a simulated impact"
+  },
+  "emergencyTestBody": "Runs a simulated impact so you can see the countdown. No call or message is ever made in test mode.",
+  "@emergencyTestBody": {
+    "description": "Explanation of test button"
+  },
+  "emergencyNotSet": "Not set",
+  "@emergencyNotSet": {
+    "description": "Placeholder for empty values"
+  },
+  "emergencyAlertHeadline": "Possible severe impact detected.",
+  "@emergencyAlertHeadline": {
+    "description": "Full-screen alert headline"
+  },
+  "emergencyAlertSubtitle": "Are you okay?",
+  "@emergencyAlertSubtitle": {
+    "description": "Full-screen alert subtitle"
+  },
+  "emergencyAlertCancel": "I'm OK — Cancel",
+  "@emergencyAlertCancel": {
+    "description": "Giant cancel button"
+  },
+  "emergencyAlertSecondsLeft": "{seconds, plural, =1{1 second left} other{{seconds} seconds left}}",
+  "@emergencyAlertSecondsLeft": {
+    "description": "Accessibility label for countdown",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "emergencyAlertListening": "Listening — say “I'm OK” to cancel",
+  "@emergencyAlertListening": {
+    "description": "Voice cancel indicator"
+  },
+  "emergencyAlertHeard": "Heard: “{text}”",
+  "@emergencyAlertHeard": {
+    "description": "Last recognized speech",
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "emergencyAlertEscalated": "No response. Choose what to do:",
+  "@emergencyAlertEscalated": {
+    "description": "Shown after countdown ends"
+  },
+  "emergencyAlertCall": "Call emergency services",
+  "@emergencyAlertCall": {
+    "description": "Button"
+  },
+  "emergencyAlertCallNumber": "Calls {number}. iOS asks you to confirm.",
+  "@emergencyAlertCallNumber": {
+    "description": "Subtitle of call button",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "emergencyAlertMessage": "Message contacts",
+  "@emergencyAlertMessage": {
+    "description": "Button"
+  },
+  "emergencyAlertMessageSubtitle": "Opens a prepared message. You choose whether to send it.",
+  "@emergencyAlertMessageSubtitle": {
+    "description": "Subtitle of message button"
+  },
+  "emergencyAlertTestMode": "Test mode — no call will be placed",
+  "@emergencyAlertTestMode": {
+    "description": "Label on disabled actions in test mode"
+  },
+  "emergencyAlertTestBadge": "TEST",
+  "@emergencyAlertTestBadge": {
+    "description": "Badge shown during a test countdown"
+  },
+  "emergencyAlertClose": "I'm OK — Close",
+  "@emergencyAlertClose": {
+    "description": "Close button after escalation"
+  },
+  "emergencyMsgSent": "Message sent.",
+  "@emergencyMsgSent": {
+    "description": "Result of message compose"
+  },
+  "emergencyMsgCancelled": "Message not sent.",
+  "@emergencyMsgCancelled": {
+    "description": "Result of message compose"
+  },
+  "emergencyMsgFailed": "Couldn't send the message.",
+  "@emergencyMsgFailed": {
+    "description": "Result of message compose"
+  },
+  "emergencyMsgUnavailable": "Messaging isn't available on this device.",
+  "@emergencyMsgUnavailable": {
+    "description": "Result of message compose"
+  },
+  "emergencyCallFailed": "Couldn't start the call. Dial {number} yourself.",
+  "@emergencyCallFailed": {
+    "description": "Call failure",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "modelsTitle": "AI Models",
+  "@modelsTitle": {
+    "description": "Title of the AI models screen"
+  },
+  "modelsIntro": "All models are bundled with the app and run entirely on your iPhone. Your camera feed never leaves the device.",
+  "@modelsIntro": {
+    "description": "Intro text on the AI models screen"
+  },
+  "modelsActiveStats": "Live: {ms} ms per frame · {hz} detections/s",
+  "@modelsActiveStats": {
+    "description": "Live inference stats of the active model",
+    "placeholders": {
+      "ms": {
+        "type": "String"
+      },
+      "hz": {
+        "type": "String"
+      }
+    }
+  },
+  "modelsLastLoad": "Loaded in {ms} ms",
+  "@modelsLastLoad": {
+    "description": "Time the active model took to load",
+    "placeholders": {
+      "ms": {
+        "type": "String"
+      }
+    }
+  },
+  "modelsEfficientName": "Efficient",
+  "@modelsEfficientName": {
+    "description": "Display name for the efficient detection model"
+  },
+  "modelsEfficientDesc": "Fast, compact detector tuned for long drives with low heat and battery use.",
+  "@modelsEfficientDesc": {
+    "description": "Description of the efficient model"
+  },
+  "modelsEnhancedName": "Enhanced",
+  "@modelsEnhancedName": {
+    "description": "Display name for the enhanced detection model"
+  },
+  "modelsEnhancedDesc": "Larger detector that finds smaller and more distant objects, at a higher power cost.",
+  "@modelsEnhancedDesc": {
+    "description": "Description of the enhanced model"
+  },
+  "modelsSegmentationName": "Segmentation",
+  "@modelsSegmentationName": {
+    "description": "Display name for the segmentation model"
+  },
+  "modelsSegmentationDesc": "Combines fast detection with road-surface and object masks for the Perception view.",
+  "@modelsSegmentationDesc": {
+    "description": "Description of the segmentation model"
+  },
+  "modelsNoneName": "AI paused",
+  "@modelsNoneName": {
+    "description": "Display name for the option that pauses detection"
+  },
+  "modelsNoneDesc": "Camera and recording keep running without object detection. Lowest power use.",
+  "@modelsNoneDesc": {
+    "description": "Description of the paused-AI option"
+  },
+  "modelsGenericDesc": "On-device object detection model.",
+  "@modelsGenericDesc": {
+    "description": "Fallback description for an unknown model"
+  },
+  "modelsFunctionDetection": "Detects vehicles, people, bicycles, motorcycles, buses, traffic lights and stop signs",
+  "@modelsFunctionDetection": {
+    "description": "Functionality line: detection"
+  },
+  "modelsFunctionSegmentation": "Adds road surface and object masks",
+  "@modelsFunctionSegmentation": {
+    "description": "Functionality line: segmentation"
+  },
+  "modelsFunctionNone": "No detection; dashcam recording only",
+  "@modelsFunctionNone": {
+    "description": "Functionality line for paused AI"
+  },
+  "modelsSize": "Size",
+  "@modelsSize": {
+    "description": "Label: model file size"
+  },
+  "modelsInput": "Input",
+  "@modelsInput": {
+    "description": "Label: model input resolution"
+  },
+  "modelsInputValue": "{size} × {size} px",
+  "@modelsInputValue": {
+    "description": "Model input resolution value",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "modelsViews": "Works with",
+  "@modelsViews": {
+    "description": "Label: supported drive views"
+  },
+  "modelsStatusInstalled": "Installed (bundled)",
+  "@modelsStatusInstalled": {
+    "description": "Model is bundled with the app"
+  },
+  "modelsStatusNotInstalled": "Not installed",
+  "@modelsStatusNotInstalled": {
+    "description": "Model is not available on this device"
+  },
+  "modelsSelected": "Selected",
+  "@modelsSelected": {
+    "description": "Label on the currently selected model"
+  },
+  "modelsUse": "Use this model",
+  "@modelsUse": {
+    "description": "Button to select a model"
+  },
+  "modelsSwitching": "Loading model…",
+  "@modelsSwitching": {
+    "description": "Shown while a model is being loaded"
+  },
+  "modelsSwitched": "{name} is now active",
+  "@modelsSwitched": {
+    "description": "Snackbar after switching model",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "modelsBenchmarkMeasured": "Measured on this device: {ms} ms average",
+  "@modelsBenchmarkMeasured": {
+    "description": "Benchmark result (mean inference time measured on this iPhone)",
+    "placeholders": {
+      "ms": {
+        "type": "String"
+      }
+    }
+  },
+  "modelsBenchmarkNotMeasured": "Not measured on this device",
+  "@modelsBenchmarkNotMeasured": {
+    "description": "No benchmark has been run yet"
+  },
+  "modelsBenchmarkRun": "Run benchmark",
+  "@modelsBenchmarkRun": {
+    "description": "Button to run an on-device benchmark"
+  },
+  "modelsBenchmarkRunning": "Benchmarking…",
+  "@modelsBenchmarkRunning": {
+    "description": "Shown while benchmark runs"
+  },
+  "modelsBenchmarkSelectHint": "Select this model to benchmark it.",
+  "@modelsBenchmarkSelectHint": {
+    "description": "Hint: benchmarks run on the active model only"
+  },
+  "modelsBenchmarkDone": "Benchmark complete",
+  "@modelsBenchmarkDone": {
+    "description": "Snackbar after benchmark"
+  },
+  "modelsBenchmarkFailed": "Benchmark failed: {message}",
+  "@modelsBenchmarkFailed": {
+    "description": "Snackbar on benchmark error",
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "modelsLicense": "{license} · {source}",
+  "@modelsLicense": {
+    "description": "Model license and source line",
+    "placeholders": {
+      "license": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "infoLastUpdated": "Last updated {date}",
+  "@infoLastUpdated": {
+    "description": "Footer showing when an info page was last revised",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "safetyTitle": "Safety information",
+  "@safetyTitle": {
+    "description": "Title of the safety information screen"
+  },
+  "safetyIntro": "Corvista is a driving-awareness aid. It does not control your vehicle and cannot replace your own attention, judgement or the vehicle's safety systems.",
+  "@safetyIntro": {
+    "description": "Safety screen intro"
+  },
+  "safetyBeforeTitle": "Before you drive",
+  "@safetyBeforeTitle": {
+    "description": "Safety section heading"
+  },
+  "safetyBefore1": "Mount your iPhone securely in a legal position that doesn't block your view, airbags or controls.",
+  "@safetyBefore1": {
+    "description": "Safety bullet"
+  },
+  "safetyBefore2": "Finish setup, choose a view and set your destination while parked.",
+  "@safetyBefore2": {
+    "description": "Safety bullet"
+  },
+  "safetyBefore3": "Connect a charger for longer drives and keep the phone out of direct sunlight where possible.",
+  "@safetyBefore3": {
+    "description": "Safety bullet"
+  },
+  "safetyWhileTitle": "While driving",
+  "@safetyWhileTitle": {
+    "description": "Safety section heading"
+  },
+  "safetyWhile1": "Keep your eyes on the road. Only use the large on-screen controls when it is safe and legal to do so.",
+  "@safetyWhile1": {
+    "description": "Safety bullet"
+  },
+  "safetyWhile2": "Alerts are aids, not warnings you can rely on. Silence never means the road is clear.",
+  "@safetyWhile2": {
+    "description": "Safety bullet"
+  },
+  "safetyWhile3": "Follow traffic laws, signals and road signs — not the app — when they disagree.",
+  "@safetyWhile3": {
+    "description": "Safety bullet"
+  },
+  "safetyLimitsTitle": "Limitations",
+  "@safetyLimitsTitle": {
+    "description": "Safety section heading"
+  },
+  "safetyLimits1": "A single phone camera sees only what is in front of it. Objects outside its view, hidden or very close are not detected.",
+  "@safetyLimits1": {
+    "description": "Safety bullet"
+  },
+  "safetyLimits2": "Detections may be missed, late or wrong, especially at night, in rain, fog, glare or with a dirty windshield.",
+  "@safetyLimits2": {
+    "description": "Safety bullet"
+  },
+  "safetyLimits3": "Only supported categories are recognised: vehicles, buses, motorcycles, bicycles, people, traffic lights and stop signs. Lane hints in the virtual view are stylised, not detected lanes.",
+  "@safetyLimits3": {
+    "description": "Safety bullet"
+  },
+  "safetyLimits4": "Proximity is shown as approximate zones (Very close, Close, Medium, Far), never as measured distances. The parking view is not a parking-sensor replacement.",
+  "@safetyLimits4": {
+    "description": "Safety bullet"
+  },
+  "safetyHeatTitle": "Heat and battery",
+  "@safetyHeatTitle": {
+    "description": "Safety section heading"
+  },
+  "safetyHeat1": "Continuous camera and AI use warms your iPhone. Corvista lowers the analysis rate when the device gets hot and shows a warning; if iOS overheats, the camera may stop.",
+  "@safetyHeat1": {
+    "description": "Safety bullet"
+  },
+  "safetyEmergencyTitle": "Emergency feature",
+  "@safetyEmergencyTitle": {
+    "description": "Safety section heading"
+  },
+  "safetyEmergency1": "Possible-impact detection is experimental. It can miss real crashes and can be triggered by other events.",
+  "@safetyEmergency1": {
+    "description": "Safety bullet"
+  },
+  "safetyEmergency2": "It never contacts anyone silently: iOS always asks you to confirm a call or message. It is not a substitute for calling emergency services yourself.",
+  "@safetyEmergency2": {
+    "description": "Safety bullet"
+  },
+  "privacyTitle": "Privacy",
+  "@privacyTitle": {
+    "description": "Title of the in-app privacy policy screen"
+  },
+  "privacyIntro": "Corvista is designed to keep your driving data on your iPhone. There is no Corvista account, and Corvista does not run its own servers.",
+  "@privacyIntro": {
+    "description": "Privacy intro"
+  },
+  "privacyCameraTitle": "Camera and AI",
+  "@privacyCameraTitle": {
+    "description": "Privacy section heading"
+  },
+  "privacyCamera1": "Object detection, tracking and segmentation run entirely on your iPhone. Camera frames are never uploaded.",
+  "@privacyCamera1": {
+    "description": "Privacy bullet"
+  },
+  "privacyCamera2": "The camera only runs while Corvista is open on screen. It pauses when the app goes to the background — there is no hidden background recording.",
+  "@privacyCamera2": {
+    "description": "Privacy bullet"
+  },
+  "privacyRecordingsTitle": "Recordings",
+  "@privacyRecordingsTitle": {
+    "description": "Privacy section heading"
+  },
+  "privacyRecordings1": "The rolling buffer is temporary and overwritten continuously. Footage is only kept when you tap Save Incident or, if you enable it, after a possible impact.",
+  "@privacyRecordings1": {
+    "description": "Privacy bullet"
+  },
+  "privacyRecordings2": "Saved clips stay in Corvista's private storage on your iPhone. They leave the device only when you choose Share. Deleting the app deletes them.",
+  "@privacyRecordings2": {
+    "description": "Privacy bullet"
+  },
+  "privacyRecordings3": "Audio is recorded only if you turn it on and grant microphone access.",
+  "@privacyRecordings3": {
+    "description": "Privacy bullet"
+  },
+  "privacyLocationTitle": "Location",
+  "@privacyLocationTitle": {
+    "description": "Privacy section heading"
+  },
+  "privacyLocation1": "Location is used while the app is open for your speed, the map, routes and weather. If \"Save location\" is on, the position at save time is stored with the clip on your device.",
+  "@privacyLocation1": {
+    "description": "Privacy bullet"
+  },
+  "privacyNetworkTitle": "Network services",
+  "@privacyNetworkTitle": {
+    "description": "Privacy section heading"
+  },
+  "privacyNetwork1": "Apple Maps — map display, place search and routes. Your search text and approximate location are sent to Apple.",
+  "@privacyNetwork1": {
+    "description": "Privacy bullet"
+  },
+  "privacyNetwork2": "Apple Weather (WeatherKit) — current and hourly weather for your location.",
+  "@privacyNetwork2": {
+    "description": "Privacy bullet"
+  },
+  "privacyNetwork4": "Corvista includes no advertising and no third-party analytics or tracking.",
+  "@privacyNetwork4": {
+    "description": "Privacy bullet"
+  },
+  "privacyEmergencyTitle": "Emergency contacts",
+  "@privacyEmergencyTitle": {
+    "description": "Privacy section heading"
+  },
+  "privacyEmergency1": "Contacts you choose are stored in the iOS Keychain on this device. Voice cancellation uses on-device speech recognition where available. Calls and messages are only sent after you confirm them in iOS.",
+  "@privacyEmergency1": {
+    "description": "Privacy bullet"
+  },
+  "privacyControlsTitle": "Your controls",
+  "@privacyControlsTitle": {
+    "description": "Privacy section heading"
+  },
+  "privacyControls1": "You can delete clips at any time in Clips, and change or revoke camera, microphone, location and speech access in iOS Settings.",
+  "@privacyControls1": {
+    "description": "Privacy bullet"
+  },
+  "termsTitle": "Terms of Use",
+  "@termsTitle": {
+    "description": "Title of the terms screen"
+  },
+  "termsIntro": "By using Corvista you agree to these terms. Apple's standard Licensed Application End User License Agreement also applies.",
+  "@termsIntro": {
+    "description": "Terms intro"
+  },
+  "termsUseTitle": "Using Corvista",
+  "@termsUseTitle": {
+    "description": "Terms section heading"
+  },
+  "termsUse1": "Corvista is a driving-awareness and dashcam aid. You remain fully responsible for driving safely and legally at all times.",
+  "@termsUse1": {
+    "description": "Terms bullet"
+  },
+  "termsUse2": "Don't interact with the app in ways that distract you while driving. Mount the device securely and lawfully.",
+  "@termsUse2": {
+    "description": "Terms bullet"
+  },
+  "termsAccuracyTitle": "No guarantees of accuracy",
+  "@termsAccuracyTitle": {
+    "description": "Terms section heading"
+  },
+  "termsAccuracy1": "Detections, zones, alerts, map markers, routes and weather can be incomplete, delayed or wrong. Corvista does not control your vehicle.",
+  "@termsAccuracy1": {
+    "description": "Terms bullet"
+  },
+  "termsAccuracy2": "The emergency feature is experimental and may fail to detect an impact or may trigger falsely.",
+  "@termsAccuracy2": {
+    "description": "Terms bullet"
+  },
+  "termsRecordingTitle": "Recording laws",
+  "@termsRecordingTitle": {
+    "description": "Terms section heading"
+  },
+  "termsRecording1": "Laws on dashcams, audio recording and filming people differ by country and region. You are responsible for complying with them, including when you share clips.",
+  "@termsRecording1": {
+    "description": "Terms bullet"
+  },
+  "termsLiabilityTitle": "Liability",
+  "@termsLiabilityTitle": {
+    "description": "Terms section heading"
+  },
+  "termsLiability1": "The app is provided \"as is\". To the extent permitted by law, the developer is not liable for accidents, losses, fines or damages arising from its use or from reliance on its output.",
+  "@termsLiability1": {
+    "description": "Terms bullet"
+  },
+  "termsChangesTitle": "Changes",
+  "@termsChangesTitle": {
+    "description": "Terms section heading"
+  },
+  "termsChanges1": "These terms may be updated with new versions of the app. Continued use after an update means you accept the revised terms.",
+  "@termsChanges1": {
+    "description": "Terms bullet"
+  },
+  "helpTitle": "Help",
+  "@helpTitle": {
+    "description": "Title of the help / FAQ screen"
+  },
+  "helpIntro": "Answers to common questions. For safety guidance, see Safety information.",
+  "@helpIntro": {
+    "description": "Help intro"
+  },
+  "helpQSave": "How do I keep footage of an incident?",
+  "@helpQSave": {
+    "description": "FAQ question"
+  },
+  "helpASaveBuffer": "Tap the large Save Incident button in the drive view. Corvista saves the last 20 or 30 seconds of its rolling buffer (your choice in Settings › Recording) to Clips.",
+  "@helpASaveBuffer": {
+    "description": "Help FAQ answer: how to save an incident"
+  },
+  "helpQWhere": "Where are my clips stored?",
+  "@helpQWhere": {
+    "description": "FAQ question"
+  },
+  "helpAWhere": "In Corvista's private storage on your iPhone. They are never uploaded. Use Share in the player to send or export a clip.",
+  "@helpAWhere": {
+    "description": "FAQ answer"
+  },
+  "helpQZones": "How accurate are the proximity zones?",
+  "@helpQZones": {
+    "description": "FAQ question"
+  },
+  "helpAZones": "Zones are rough estimates from a single camera using typical object sizes. Treat them as approximate hints, never as distances.",
+  "@helpAZones": {
+    "description": "FAQ answer"
+  },
+  "helpQSlow": "Why does detection slow down?",
+  "@helpQSlow": {
+    "description": "FAQ question"
+  },
+  "helpASlow": "When your iPhone gets warm, the battery is low or Low Power Mode is on, Corvista reduces the analysis rate to protect the device. You can change the power mode in Settings.",
+  "@helpASlow": {
+    "description": "FAQ answer"
+  },
+  "helpQMap": "The map, search or weather isn't working.",
+  "@helpQMap": {
+    "description": "FAQ question"
+  },
+  "helpAMap": "These features need an internet connection and location access. Check your connection and allow location for Corvista in iOS Settings.",
+  "@helpAMap": {
+    "description": "FAQ answer"
+  },
+  "helpQSimulator": "The camera shows as unavailable.",
+  "@helpQSimulator": {
+    "description": "FAQ question"
+  },
+  "helpASimulator": "Make sure camera access is allowed in iOS Settings and no other app is using the camera. On the iOS Simulator there is no camera; a local test video can be used instead.",
+  "@helpASimulator": {
+    "description": "FAQ answer"
+  },
+  "emergencyMsgNoContacts": "Add an emergency contact first.",
+  "@emergencyMsgNoContacts": {
+    "description": "Shown when messaging with no contacts configured"
+  },
+  "cameraStarting": "Starting camera…",
+  "@cameraStarting": {
+    "description": "Overlay while the camera session starts"
+  },
+  "cameraInterrupted": "Camera paused",
+  "@cameraInterrupted": {
+    "description": "Overlay title when iOS interrupts the camera (call, other app, multitasking)"
+  },
+  "cameraInterruptedBody": "iOS paused the camera, for example during a call or while another app uses it. It resumes automatically.",
+  "@cameraInterruptedBody": {
+    "description": "Overlay body for an interrupted camera"
+  },
+  "cameraUnavailable": "Camera unavailable",
+  "@cameraUnavailable": {
+    "description": "Overlay title when there is no camera (e.g. the iOS Simulator)"
+  },
+  "cameraUnavailableBody": "No camera is available on this device. Detection, recording and parking views need the rear camera.",
+  "@cameraUnavailableBody": {
+    "description": "Overlay body for an unavailable camera"
+  },
+  "cameraRunTestFootage": "Run test footage",
+  "@cameraRunTestFootage": {
+    "description": "Debug-only button that opens diagnostics to play a local video through the detection pipeline"
+  },
+  "cameraPermissionDenied": "Camera access is off",
+  "@cameraPermissionDenied": {
+    "description": "Overlay title when camera permission is denied"
+  },
+  "cameraPermissionDeniedBody": "Corvista needs the camera for detection, dashcam recording and parking views. Turn on Camera access in Settings.",
+  "@cameraPermissionDeniedBody": {
+    "description": "Overlay body when camera permission is denied"
+  },
+  "cameraError": "Camera error",
+  "@cameraError": {
+    "description": "Overlay title for a camera failure"
+  },
+  "cameraStopped": "Camera stopped",
+  "@cameraStopped": {
+    "description": "Overlay title when the camera is stopped"
+  },
+  "cameraStart": "Start camera",
+  "@cameraStart": {
+    "description": "Button that (re)starts the camera"
+  },
+  "cameraFocusHint": "Tap to focus",
+  "@cameraFocusHint": {
+    "description": "Accessibility hint for tap-to-focus on the camera preview"
+  },
+  "cameraPreviewLabel": "Live camera view with detected objects",
+  "@cameraPreviewLabel": {
+    "description": "Accessibility label for the camera preview"
+  },
+  "cameraDiagLine": "Camera {fps} fps · AI {hz} Hz · {ms} ms · dropped {dropped}",
+  "@cameraDiagLine": {
+    "description": "On-screen diagnostics line (show FPS setting)",
+    "placeholders": {
+      "fps": {
+        "type": "String"
+      },
+      "hz": {
+        "type": "String"
+      },
+      "ms": {
+        "type": "String"
+      },
+      "dropped": {
+        "type": "int"
+      }
+    }
+  },
+  "hudSpeedLabel": "Speed {speed} {unit} (GPS)",
+  "@hudSpeedLabel": {
+    "description": "Accessibility label for the speed readout",
+    "placeholders": {
+      "speed": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "hudSpeedUnavailable": "No GPS speed",
+  "@hudSpeedUnavailable": {
+    "description": "Accessibility label when GPS speed is unavailable"
+  },
+  "hudHeading": "Heading {direction} {degrees}°",
+  "@hudHeading": {
+    "description": "Accessibility label for the compass heading",
+    "placeholders": {
+      "direction": {
+        "type": "String"
+      },
+      "degrees": {
+        "type": "String"
+      }
+    }
+  },
+  "hudRecBuffer": "REC {seconds}s",
+  "@hudRecBuffer": {
+    "description": "Rolling dashcam buffer indicator with buffered seconds",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "hudRecBufferLabel": "Dashcam buffer recording, {seconds} of {target} seconds buffered",
+  "@hudRecBufferLabel": {
+    "description": "Accessibility label for the rolling buffer indicator",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      },
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "hudRecIdle": "REC off",
+  "@hudRecIdle": {
+    "description": "Dashcam buffer not recording"
+  },
+  "hudRecSaving": "Saving…",
+  "@hudRecSaving": {
+    "description": "Dashcam buffer is saving an incident"
+  },
+  "hudRecError": "REC error",
+  "@hudRecError": {
+    "description": "Dashcam recorder failed"
+  },
+  "hudAiPaused": "AI paused",
+  "@hudAiPaused": {
+    "description": "AI detection is paused (no model)"
+  },
+  "hudAiObjects": "{count, plural, =0{No objects} =1{1 object} other{{count} objects}}",
+  "@hudAiObjects": {
+    "description": "Number of tracked objects in the HUD AI chip",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hudAiStatusLabel": "AI model {model}, {count, plural, =0{no objects} =1{1 object} other{{count} objects}} detected",
+  "@hudAiStatusLabel": {
+    "description": "Accessibility label for the AI chip",
+    "placeholders": {
+      "model": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hudThermalSerious": "Hot — AI slowed",
+  "@hudThermalSerious": {
+    "description": "Thermal warning chip: device is hot so AI rate is reduced"
+  },
+  "hudThermalCritical": "Too hot — AI paused",
+  "@hudThermalCritical": {
+    "description": "Thermal critical warning chip"
+  },
+  "hudBatteryLow": "Battery {percent}",
+  "@hudBatteryLow": {
+    "description": "Low battery warning chip",
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "hudLowPower": "Low Power Mode",
+  "@hudLowPower": {
+    "description": "iOS Low Power Mode active warning chip"
+  },
+  "hudWeatherLabel": "Weather {temperature}, {condition}. Tap for details.",
+  "@hudWeatherLabel": {
+    "description": "Accessibility label for the weather chip",
+    "placeholders": {
+      "temperature": {
+        "type": "String"
+      },
+      "condition": {
+        "type": "String"
+      }
+    }
+  },
+  "hudNoGuidance": "Search a destination on the Map view to see turn-by-turn guidance here.",
+  "@hudNoGuidance": {
+    "description": "Navigation HUD style when no route is active"
+  },
+  "navArrived": "You have arrived",
+  "@navArrived": {
+    "description": "Navigation: destination reached"
+  },
+  "navRerouting": "Rerouting…",
+  "@navRerouting": {
+    "description": "Navigation: off route, calculating a new route"
+  },
+  "navSearchHint": "Search destination",
+  "@navSearchHint": {
+    "description": "Map search pill placeholder"
+  },
+  "navSearchFieldHint": "Address, place or business",
+  "@navSearchFieldHint": {
+    "description": "Destination search text field placeholder"
+  },
+  "navNoResults": "No matching places",
+  "@navNoResults": {
+    "description": "Destination search returned nothing"
+  },
+  "navSearching": "Searching…",
+  "@navSearching": {
+    "description": "Destination search in progress"
+  },
+  "navSearchStartTyping": "Type an address or place name. Results come from Apple Maps and need an internet connection.",
+  "@navSearchStartTyping": {
+    "description": "Destination search empty state"
+  },
+  "navErrorUnavailable": "Search and routes are unavailable — check your internet connection.",
+  "@navErrorUnavailable": {
+    "description": "Navigation service unavailable / offline"
+  },
+  "navErrorNoLocation": "Waiting for your location to plan a route.",
+  "@navErrorNoLocation": {
+    "description": "No GPS fix yet for routing"
+  },
+  "navErrorPermission": "Location access is off, so routes can't start from your position.",
+  "@navErrorPermission": {
+    "description": "Location permission denied for routing"
+  },
+  "navErrorGeneric": "Couldn't load routes ({code}).",
+  "@navErrorGeneric": {
+    "description": "Generic navigation error with code",
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "navRoutesTitle": "Routes to {place}",
+  "@navRoutesTitle": {
+    "description": "Route preview card title",
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "navRouteOption": "{distance} · {duration}",
+  "@navRouteOption": {
+    "description": "Route option chip: distance and travel time",
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "navArriveAt": "Arrive {time}",
+  "@navArriveAt": {
+    "description": "Estimated arrival time",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "navStart": "Start",
+  "@navStart": {
+    "description": "Start turn-by-turn navigation"
+  },
+  "navEnd": "End",
+  "@navEnd": {
+    "description": "End navigation"
+  },
+  "navEndLabel": "End navigation",
+  "@navEndLabel": {
+    "description": "Accessibility label for the end navigation button"
+  },
+  "navRemaining": "{distance} · {duration} left",
+  "@navRemaining": {
+    "description": "Remaining distance and time while navigating",
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "navAdvisory": "Advisory: {text}",
+  "@navAdvisory": {
+    "description": "Route advisory from Apple Maps",
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "navDurationMin": "{minutes, plural, =1{1 min} other{{minutes} min}}",
+  "@navDurationMin": {
+    "description": "Travel duration in minutes",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "navDurationHourMin": "{hours} h {minutes} min",
+  "@navDurationHourMin": {
+    "description": "Travel duration with hours and minutes",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "navAltRouteLabel": "Route {index}: {name}",
+  "@navAltRouteLabel": {
+    "description": "Accessibility label for a route alternative",
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherTitle": "Weather",
+  "@weatherTitle": {
+    "description": "Weather detail sheet title"
+  },
+  "weatherFeelsLike": "Feels like {temperature}",
+  "@weatherFeelsLike": {
+    "description": "Apparent temperature",
+    "placeholders": {
+      "temperature": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherPrecipitation": "Precipitation",
+  "@weatherPrecipitation": {
+    "description": "Precipitation chance label"
+  },
+  "weatherWind": "Wind",
+  "@weatherWind": {
+    "description": "Wind speed label"
+  },
+  "weatherVisibility": "Visibility",
+  "@weatherVisibility": {
+    "description": "Visibility label"
+  },
+  "weatherHumidity": "Humidity",
+  "@weatherHumidity": {
+    "description": "Humidity label"
+  },
+  "weatherHourly": "Next hours",
+  "@weatherHourly": {
+    "description": "Hourly forecast section title"
+  },
+  "weatherAsOf": "Updated {time}",
+  "@weatherAsOf": {
+    "description": "Weather observation time",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherRefresh": "Refresh weather",
+  "@weatherRefresh": {
+    "description": "Refresh weather button label"
+  },
+  "weatherUnavailable": "Weather is unavailable right now.",
+  "@weatherUnavailable": {
+    "description": "Weather could not be loaded"
+  },
+  "weatherNoLocation": "Weather needs your location.",
+  "@weatherNoLocation": {
+    "description": "Weather unavailable because there is no GPS fix"
+  },
+  "weatherLegal": "Data sources & legal",
+  "@weatherLegal": {
+    "description": "Link to the weather provider's legal attribution page (required)"
+  },
+  "weatherProvidedBy": "Weather data: {service}",
+  "@weatherProvidedBy": {
+    "description": "Weather provider attribution",
+    "placeholders": {
+      "service": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherNow": "Now",
+  "@weatherNow": {
+    "description": "Hourly forecast: current hour"
+  },
+  "virtualEmpty": "No supported objects detected",
+  "@virtualEmpty": {
+    "description": "Virtual view empty state: nothing confirmed by the detector (no fake traffic is shown)"
+  },
+  "virtualEmptyCameraOff": "Virtual view needs the live camera.",
+  "@virtualEmptyCameraOff": {
+    "description": "Virtual view when the camera is not running"
+  },
+  "virtualLaneDisclaimer": "Lane lines are illustrative, not detected.",
+  "@virtualLaneDisclaimer": {
+    "description": "Persistent caption in the virtual view"
+  },
+  "virtualNearest": "Nearest: {zone}",
+  "@virtualNearest": {
+    "description": "Virtual view info chip: nearest object proximity zone",
+    "placeholders": {
+      "zone": {
+        "type": "String"
+      }
+    }
+  },
+  "virtualSceneLabel": "Virtual road scene: {summary}",
+  "@virtualSceneLabel": {
+    "description": "Accessibility label for the virtual scene",
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "virtualCount": "{label} {count}",
+  "@virtualCount": {
+    "description": "Per-class count chip, e.g. 'Vehicle 3'",
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "virtualStatusAi": "AI {status}",
+  "@virtualStatusAi": {
+    "description": "Virtual view chip: AI status",
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "virtualStatusLive": "live",
+  "@virtualStatusLive": {
+    "description": "AI status: running"
+  },
+  "virtualStatusPaused": "paused",
+  "@virtualStatusPaused": {
+    "description": "AI status: paused or camera off"
+  },
+  "virtualStatusCameraOff": "Camera off",
+  "@virtualStatusCameraOff": {
+    "description": "Virtual view status pill: the camera is not running, so nothing is detected"
+  },
+  "virtualStatusTestFootage": "Test footage",
+  "@virtualStatusTestFootage": {
+    "description": "Virtual view status pill: detections come from a local test video, not the live camera"
+  },
+  "virtualEmptyHint": "Vehicles, people, bikes, lights and stop signs appear here when detected.",
+  "@virtualEmptyHint": {
+    "description": "Virtual view empty state secondary line"
+  },
+  "mapRecenter": "Recenter",
+  "@mapRecenter": {
+    "description": "Map button that returns to the follow-driving camera"
+  },
+  "mapZoomIn": "Zoom in",
+  "@mapZoomIn": {
+    "description": "Map zoom in button"
+  },
+  "mapZoomOut": "Zoom out",
+  "@mapZoomOut": {
+    "description": "Map zoom out button"
+  },
+  "mapUnsupported": "The interactive map is available on iPhone.",
+  "@mapUnsupported": {
+    "description": "Shown where the native map view cannot be created (e.g. tests)"
+  },
+  "mapObjectsApprox": "Object markers are approximate positions.",
+  "@mapObjectsApprox": {
+    "description": "Caption explaining detection markers on the map"
+  },
+  "mapWeatherUnavailable": "Weather unavailable",
+  "@mapWeatherUnavailable": {
+    "description": "Map chip when weather could not be loaded"
+  },
+  "navErrorNoRoute": "No route found to this destination.",
+  "@navErrorNoRoute": {
+    "description": "Routing returned no routes"
+  },
+  "navDismiss": "Dismiss",
+  "@navDismiss": {
+    "description": "Dismiss a navigation error"
+  },
+  "navGo": "Go",
+  "@navGo": {
+    "description": "Big button that starts turn-by-turn navigation on the selected route"
+  },
+  "navFastest": "Fastest",
+  "@navFastest": {
+    "description": "Tag on the quickest route alternative"
+  },
+  "navThen": "Then",
+  "@navThen": {
+    "description": "Prefix of the small chip showing the maneuver that follows the next one"
+  },
+  "navRecents": "Recent",
+  "@navRecents": {
+    "description": "Header of the recent destinations list"
+  },
+  "navClearRecents": "Clear",
+  "@navClearRecents": {
+    "description": "Clears the recent destinations list"
+  },
+  "navSearchSubmitHint": "Press Search to see all matching places",
+  "@navSearchSubmitHint": {
+    "description": "Hint under suggestions"
+  },
+  "navPlaces": "Places",
+  "@navPlaces": {
+    "description": "Header of full search results"
+  },
+  "navEtaLabel": "arrival",
+  "@navEtaLabel": {
+    "description": "Small caption under the ETA clock time in the trip bar"
+  },
+  "navTimeLeftLabel": "left",
+  "@navTimeLeftLabel": {
+    "description": "Small caption under remaining time in the trip bar"
+  },
+  "navOverview": "Overview",
+  "@navOverview": {
+    "description": "Shows the whole route"
+  },
+  "navMute": "Mute voice",
+  "@navMute": {
+    "description": "Turns spoken navigation guidance off"
+  },
+  "navUnmute": "Unmute voice",
+  "@navUnmute": {
+    "description": "Turns spoken navigation guidance on"
+  },
+  "navEndConfirm": "End navigation?",
+  "@navEndConfirm": {
+    "description": "Confirmation dialog title before ending guidance"
+  },
+  "navEndConfirmBody": "Guidance to {place} will stop.",
+  "@navEndConfirmBody": {
+    "description": "Confirmation dialog body",
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "navArrivedAt": "You have arrived at {place}",
+  "@navArrivedAt": {
+    "description": "Arrival card title",
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "navDone": "Done",
+  "@navDone": {
+    "description": "Closes the arrival card and ends navigation"
+  },
+  "navWeakGps": "Weak GPS signal",
+  "@navWeakGps": {
+    "description": "Shown while navigating when the GPS fix is old or inaccurate"
+  },
+  "navLocationOff": "Location is off. Turn it on to plan routes and navigate.",
+  "@navLocationOff": {
+    "description": "Shown in search / navigation when location permission is denied"
+  },
+  "navVoiceGuidance": "Voice guidance",
+  "@navVoiceGuidance": {
+    "description": "Setting / toggle label for spoken turn-by-turn navigation"
+  },
+  "navSpeakIn": "In {distance}, {instruction}",
+  "@navSpeakIn": {
+    "description": "Spoken prompt before a maneuver. distance is spoken distance (e.g. 500 meters), instruction comes from Apple Maps",
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "instruction": {
+        "type": "String"
+      }
+    }
+  },
+  "navSpeakThen": "{first}, then {second}",
+  "@navSpeakThen": {
+    "description": "Spoken prompt chaining two close maneuvers",
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "second": {
+        "type": "String"
+      }
+    }
+  },
+  "navSpeakRerouting": "Rerouting",
+  "@navSpeakRerouting": {
+    "description": "Spoken when a new route is computed after leaving the route"
+  },
+  "navSpeakArrived": "You have arrived",
+  "@navSpeakArrived": {
+    "description": "Spoken at the destination"
+  },
+  "navSpokenMeters": "{count, plural, =1{1 meter} other{{count} meters}}",
+  "@navSpokenMeters": {
+    "description": "Spoken distance in meters",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "navSpokenKilometers": "{count, plural, =1{1 kilometer} other{{value} kilometers}}",
+  "@navSpokenKilometers": {
+    "description": "Spoken distance in kilometers; count is 1 only for exactly one kilometer, value is the formatted number",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "navSpokenFeet": "{count, plural, =1{1 foot} other{{count} feet}}",
+  "@navSpokenFeet": {
+    "description": "Spoken distance in feet",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "navSpokenYards": "{count, plural, =1{1 yard} other{{count} yards}}",
+  "@navSpokenYards": {
+    "description": "Spoken distance in yards (UK)",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "navSpeakContinue": "Continue for {distance}",
+  "@navSpeakContinue": {
+    "description": "Spoken right after a maneuver when the next one is far away",
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "navErrorNoDirections": "Directions aren't available for this trip in this region. Try another destination.",
+  "@navErrorNoDirections": {
+    "description": "Apple Maps cannot provide driving directions (unsupported country/region or no road connection)"
+  },
+  "navContinueFor": "Continue for {distance}",
+  "@navContinueFor": {
+    "description": "Banner text when the next maneuver is far away",
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "navSpokenMiles": "{count, plural, =1{1 mile} other{{value} miles}}",
+  "@navSpokenMiles": {
+    "description": "Spoken distance in miles; count is 1 only for exactly one mile, value is the formatted number",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "parkingNearest": "Nearest: {object} · {zone}",
+  "@parkingNearest": {
+    "description": "Parking view: nearest detected object and its proximity zone",
+    "placeholders": {
+      "object": {
+        "type": "String"
+      },
+      "zone": {
+        "type": "String"
+      }
+    }
+  },
+  "parkingNothing": "Nothing detected in view",
+  "@parkingNothing": {
+    "description": "Parking view: no object detected in the camera's field of view (does not mean the area is clear)"
+  },
+  "parkingBeeps": "Proximity beeps",
+  "@parkingBeeps": {
+    "description": "Toggle for parking proximity tones"
+  },
+  "parkingVolume": "Beep volume",
+  "@parkingVolume": {
+    "description": "Slider label for parking beep volume"
+  },
+  "parkingLimitations": "Single camera, not 360°. Objects outside the camera view are not detected. Not a replacement for parking sensors; estimates can be wrong and silence does not mean the area is clear.",
+  "@parkingLimitations": {
+    "description": "Persistent parking limitations text"
+  },
+  "parkingTopDownLabel": "Top-down proximity view. {summary}",
+  "@parkingTopDownLabel": {
+    "description": "Accessibility label for the parking top-down scene",
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "perceptionModeOriginal": "Original",
+  "@perceptionModeOriginal": {
+    "description": "Segmentation display mode: camera only"
+  },
+  "perceptionModeBoxes": "Boxes",
+  "@perceptionModeBoxes": {
+    "description": "Segmentation display mode: detection boxes only"
+  },
+  "perceptionModeMasks": "Object masks",
+  "@perceptionModeMasks": {
+    "description": "Segmentation display mode: per-object masks"
+  },
+  "perceptionModeRoad": "Road surface",
+  "@perceptionModeRoad": {
+    "description": "Segmentation display mode: road surface mask"
+  },
+  "perceptionModeCombined": "Combined",
+  "@perceptionModeCombined": {
+    "description": "Segmentation display mode: masks, road and boxes"
+  },
+  "perceptionOpacity": "Mask opacity",
+  "@perceptionOpacity": {
+    "description": "Slider label for segmentation mask opacity"
+  },
+  "perceptionDisclaimer": "The road-surface mask is an approximate visual layer. It does not show drivable space or lanes.",
+  "@perceptionDisclaimer": {
+    "description": "Persistent disclaimer in the perception view"
+  },
+  "perceptionNeedsModel": "Select the Segmentation model to see masks.",
+  "@perceptionNeedsModel": {
+    "description": "Shown when the active AI model does not produce segmentation"
+  },
+  "perceptionChooseModel": "Choose model",
+  "@perceptionChooseModel": {
+    "description": "Button opening the AI models screen"
+  },
+  "perceptionWaiting": "Waiting for the first segmentation frame…",
+  "@perceptionWaiting": {
+    "description": "Shown until the first mask arrives"
+  },
+  "perceptionShortCamera": "Camera",
+  "@perceptionShortCamera": {
+    "description": "Perception mode pill, very short label: plain camera, no overlays"
+  },
+  "perceptionShortBoxes": "Boxes",
+  "@perceptionShortBoxes": {
+    "description": "Perception mode pill, very short label: detection boxes only"
+  },
+  "perceptionShortObjects": "Objects",
+  "@perceptionShortObjects": {
+    "description": "Perception mode pill, very short label: object masks"
+  },
+  "perceptionShortRoad": "Road",
+  "@perceptionShortRoad": {
+    "description": "Perception mode pill, very short label: road-surface mask"
+  },
+  "perceptionShortAll": "All",
+  "@perceptionShortAll": {
+    "description": "Perception mode pill, very short label: boxes + object masks + road"
+  },
+  "perceptionModesLabel": "Perception layers",
+  "@perceptionModesLabel": {
+    "description": "Accessibility label of the perception mode pill"
+  },
+  "perceptionStatusWarmingUp": "Warming up…",
+  "@perceptionStatusWarmingUp": {
+    "description": "Status chip until the first segmentation map arrives"
+  },
+  "perceptionStatusLoadingModel": "Loading model…",
+  "@perceptionStatusLoadingModel": {
+    "description": "Status chip while the segmentation model loads"
+  },
+  "perceptionStatusLive": "{fps} fps",
+  "@perceptionStatusLive": {
+    "description": "Status chip: segmentation maps per second",
+    "placeholders": {
+      "fps": {
+        "type": "String"
+      }
+    }
+  },
+  "perceptionStatusPaused": "Masks paused",
+  "@perceptionStatusPaused": {
+    "description": "Status chip when no segmentation map arrived for a few seconds"
+  },
+  "perceptionLegend": "Mask legend",
+  "@perceptionLegend": {
+    "description": "Accessibility label of the colour legend chip (tap to expand/collapse)"
+  },
+  "perceptionUnavailable": "Masks unavailable",
+  "@perceptionUnavailable": {
+    "description": "Title of the perception empty state when no segmentation model is active"
+  },
+  "driveSave": "Save",
+  "@driveSave": {
+    "description": "Save Incident button short label"
+  },
+  "driveSaveIncident": "Save incident",
+  "@driveSaveIncident": {
+    "description": "Accessibility label for the Save Incident button"
+  },
+  "driveSaveHint": "Saves the last {seconds} seconds of dashcam footage",
+  "@driveSaveHint": {
+    "description": "Accessibility hint for Save Incident",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "driveSaving": "Saving incident…",
+  "@driveSaving": {
+    "description": "Save Incident in progress"
+  },
+  "hudRecManualLabel": "Recording, {time}",
+  "@hudRecManualLabel": {
+    "description": "VoiceOver label of the HUD REC chip during manual recording",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "driveRecord": "Record",
+  "@driveRecord": {
+    "description": "Label of the manual (continuous) recording toggle when idle"
+  },
+  "driveRecordStartA11y": "Start recording",
+  "@driveRecordStartA11y": {
+    "description": "VoiceOver label of the Record toggle when idle"
+  },
+  "driveRecordStopA11y": "Stop recording, {time} recorded",
+  "@driveRecordStopA11y": {
+    "description": "VoiceOver label of the Record toggle while recording",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "driveRecordHint": "Records continuously until you stop it, including the last 5 seconds",
+  "@driveRecordHint": {
+    "description": "VoiceOver hint of the Record toggle"
+  },
+  "driveRecordFailed": "Couldn’t start recording",
+  "@driveRecordFailed": {
+    "description": "Snackbar when manual recording cannot start"
+  },
+  "driveRecordSaved": "{count, plural, =1{Recording saved} other{Recording saved · {count} parts}}",
+  "@driveRecordSaved": {
+    "description": "Snackbar after the user stops a manual recording",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "driveRecordStopped": "{reason, select, storage{Recording stopped: storage almost full} max_duration{Recording stopped: maximum length reached} camera_stopped{Recording stopped with the camera} background{Recording stopped: the app went to the background} thermal{Recording stopped: the phone is too hot} other{Recording stopped}}",
+  "@driveRecordStopped": {
+    "description": "Snackbar when manual recording stops automatically; recordings so far are saved",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSaved": "Incident saved · {duration} · {resolution}",
+  "@driveSaved": {
+    "description": "Snackbar after a successful incident save",
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      },
+      "resolution": {
+        "type": "String"
+      }
+    }
+  },
+  "driveSavedView": "View",
+  "@driveSavedView": {
+    "description": "Snackbar action opening the saved clip"
+  },
+  "driveSaveFailed": "Couldn't save the incident.",
+  "@driveSaveFailed": {
+    "description": "Generic incident save failure"
+  },
+  "driveSaveNotRunning": "Recording hasn't started yet — wait for the camera to start, then try again.",
+  "@driveSaveNotRunning": {
+    "description": "Incident save failed because the recorder isn't running"
+  },
+  "driveSaveTestFootage": "Test footage isn't recorded. Incident saving works with the live camera.",
+  "@driveSaveTestFootage": {
+    "description": "Shown when Save is tapped while TEST FOOTAGE (a video file) is playing instead of the camera"
+  },
+  "driveSaveStorageFull": "Your iPhone is out of storage. Free up space or delete older clips.",
+  "@driveSaveStorageFull": {
+    "description": "Incident save failed: storage full"
+  },
+  "driveSaveIoError": "The clip couldn't be written to storage.",
+  "@driveSaveIoError": {
+    "description": "Incident save failed: I/O error"
+  },
+  "driveClips": "Clips",
+  "@driveClips": {
+    "description": "Button opening the clips gallery"
+  },
+  "driveSettings": "Settings",
+  "@driveSettings": {
+    "description": "Button opening settings"
+  },
+  "driveViewSwitcher": "Drive views",
+  "@driveViewSwitcher": {
+    "description": "Accessibility label for the bottom view switcher"
+  },
+  "driveLocationDenied": "Location is off — speed, maps and routes are unavailable.",
+  "@driveLocationDenied": {
+    "description": "Banner when location permission is denied"
+  },
+  "driveCameraDenied": "Camera access is off — detection and recording are unavailable.",
+  "@driveCameraDenied": {
+    "description": "Banner when camera permission is denied (shown on non-camera views)"
+  },
+  "driveRecorderFallback": "Recording without audio: microphone access is off.",
+  "@driveRecorderFallback": {
+    "description": "Banner when audio recording fell back because mic permission is missing"
+  },
+  "driveRecorderFallbackGeneric": "Recording settings were adjusted: {reason}",
+  "@driveRecorderFallbackGeneric": {
+    "description": "Banner when the native recorder adjusted the configuration",
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "drivePowerThermalSerious": "Your iPhone is hot. AI runs slower to cool down — keep it out of direct sun and near a vent.",
+  "@drivePowerThermalSerious": {
+    "description": "Power notice: thermal serious"
+  },
+  "drivePowerThermalCritical": "Your iPhone is too hot. AI detection is paused until it cools down; recording continues if possible.",
+  "@drivePowerThermalCritical": {
+    "description": "Power notice: thermal critical"
+  },
+  "drivePowerLowPower": "Low Power Mode is on — AI runs at a reduced rate.",
+  "@drivePowerLowPower": {
+    "description": "Power notice: low power mode"
+  },
+  "drivePowerBatteryLow": "Battery is low — connect your iPhone to power while driving.",
+  "@drivePowerBatteryLow": {
+    "description": "Power notice: battery low"
+  },
+  "onboardingTitle1": "See more of every drive.",
+  "@onboardingTitle1": {
+    "description": "Onboarding page 1 headline"
+  },
+  "onboardingBody1": "Turn your iPhone into an intelligent dashcam and driving-awareness companion.",
+  "@onboardingBody1": {
+    "description": "Onboarding page 1 subtitle"
+  },
+  "onboardingTitle2": "Intelligence in every frame.",
+  "@onboardingTitle2": {
+    "description": "Onboarding page 2 headline"
+  },
+  "onboardingBody2": "Recognize supported vehicles, people, bicycles, and road signals directly on your iPhone.",
+  "@onboardingBody2": {
+    "description": "Onboarding page 2 subtitle"
+  },
+  "onboardingTitle3": "One road. Multiple perspectives.",
+  "@onboardingTitle3": {
+    "description": "Onboarding page 3 headline"
+  },
+  "onboardingBody3": "Switch between live detection, virtual driving views, interactive maps, and parking visualization.",
+  "@onboardingBody3": {
+    "description": "Onboarding page 3 subtitle"
+  },
+  "onboardingTitle4": "Keep the moments that matter.",
+  "@onboardingTitle4": {
+    "description": "Onboarding page 4 headline"
+  },
+  "onboardingBody4": "Save recent dashcam footage, review incidents, and share recordings.",
+  "@onboardingBody4": {
+    "description": "Onboarding page 4 subtitle"
+  },
+  "onboardingTitle5": "Safety & privacy",
+  "@onboardingTitle5": {
+    "description": "Onboarding page 5 headline"
+  },
+  "onboardingSafety1": "Corvista is a driving-awareness aid. Keep your eyes on the road.",
+  "@onboardingSafety1": {
+    "description": "Safety bullet: awareness aid"
+  },
+  "onboardingSafety2": "It does not control your vehicle or replace your judgment.",
+  "@onboardingSafety2": {
+    "description": "Safety bullet: no vehicle control"
+  },
+  "onboardingSafety3": "Detections and estimates may be inaccurate or missed.",
+  "@onboardingSafety3": {
+    "description": "Safety bullet: may be inaccurate"
+  },
+  "onboardingSafety4": "Camera processing happens on your iPhone — video isn't uploaded.",
+  "@onboardingSafety4": {
+    "description": "Safety bullet: on-device processing"
+  },
+  "onboardingSafety5": "Maps, search, routes and weather need an internet connection.",
+  "@onboardingSafety5": {
+    "description": "Safety bullet: network services"
+  },
+  "onboardingSafety6": "Mount your iPhone securely so it doesn't block your view.",
+  "@onboardingSafety6": {
+    "description": "Safety bullet: secure mount"
+  },
+  "onboardingSafety7": "Complete setup before you start driving.",
+  "@onboardingSafety7": {
+    "description": "Safety bullet: setup before driving"
+  },
+  "onboardingAcknowledge": "I understand Corvista is an awareness aid and I remain responsible for driving safely.",
+  "@onboardingAcknowledge": {
+    "description": "Acknowledgement checkbox on the safety page"
+  },
+  "onboardingReadSafety": "Read full safety information",
+  "@onboardingReadSafety": {
+    "description": "Link to the safety information screen"
+  },
+  "onboardingNext": "Next",
+  "@onboardingNext": {
+    "description": "Onboarding next page button"
+  },
+  "onboardingSkip": "Skip",
+  "@onboardingSkip": {
+    "description": "Onboarding skip to the safety page"
+  },
+  "onboardingAgree": "Continue",
+  "@onboardingAgree": {
+    "description": "Onboarding final button (requires acknowledgement)"
+  },
+  "onboardingPageLabel": "Page {current} of {total}",
+  "@onboardingPageLabel": {
+    "description": "Accessibility label for onboarding page indicator",
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "permTitle": "Permissions",
+  "@permTitle": {
+    "description": "Permissions screen title"
+  },
+  "permIntro": "Corvista asks only for what each feature needs. You can change these any time in Settings.",
+  "@permIntro": {
+    "description": "Permissions screen intro"
+  },
+  "permCameraTitle": "Camera",
+  "@permCameraTitle": {
+    "description": "Camera permission title"
+  },
+  "permCameraBody": "Required for detection, dashcam recording and the parking view. Video is processed on your iPhone.",
+  "@permCameraBody": {
+    "description": "Camera permission explanation"
+  },
+  "permLocationTitle": "Location",
+  "@permLocationTitle": {
+    "description": "Location permission title"
+  },
+  "permLocationBody": "Used for GPS speed, the map, routes, weather and tagging saved clips. Only while you use the app.",
+  "@permLocationBody": {
+    "description": "Location permission explanation"
+  },
+  "permMicTitle": "Microphone",
+  "@permMicTitle": {
+    "description": "Microphone permission title"
+  },
+  "permSpeechNote": "Speech recognition is only requested if you turn on voice cancellation for emergency alerts.",
+  "@permSpeechNote": {
+    "description": "Note that speech permission is requested later, in context"
+  },
+  "permRequired": "Required",
+  "@permRequired": {
+    "description": "Badge for a required permission"
+  },
+  "permOptional": "Optional",
+  "@permOptional": {
+    "description": "Badge for an optional permission"
+  },
+  "permAllow": "Allow",
+  "@permAllow": {
+    "description": "Button that triggers the iOS permission prompt"
+  },
+  "permGranted": "Allowed",
+  "@permGranted": {
+    "description": "Permission granted state"
+  },
+  "permDenied": "Denied",
+  "@permDenied": {
+    "description": "Permission denied state"
+  },
+  "permLimited": "Limited",
+  "@permLimited": {
+    "description": "Permission limited state"
+  },
+  "permRestricted": "Restricted",
+  "@permRestricted": {
+    "description": "Permission restricted by device management or parental controls"
+  },
+  "permStart": "Start driving",
+  "@permStart": {
+    "description": "Finish onboarding and open the drive screen"
+  },
+  "permCameraNeeded": "You can continue without camera access, but detection and recording won't work until you allow it in Settings.",
+  "@permCameraNeeded": {
+    "description": "Hint shown when camera is denied on the permissions screen"
+  },
+  "permSetupIntro": "Corvista needs these to work fully. Tap Allow all and iOS will ask for each one in turn. You can change them any time in Settings.",
+  "@permSetupIntro": {
+    "description": "First-run permissions screen intro"
+  },
+  "permCameraLine": "Required for detection, dashcam recording and the parking view. Video is processed on your iPhone, never uploaded.",
+  "@permCameraLine": {
+    "description": "One-line camera permission explanation"
+  },
+  "permLocationLine": "GPS speed, the map, routes, weather and where clips were saved. Only while you use the app.",
+  "@permLocationLine": {
+    "description": "One-line location (when in use) permission explanation"
+  },
+  "permMicLine": "Cabin audio in incident clips, and hearing your cancel phrase during an emergency alert.",
+  "@permMicLine": {
+    "description": "One-line microphone permission explanation"
+  },
+  "permSpeechTitle": "Speech recognition",
+  "@permSpeechTitle": {
+    "description": "Speech recognition permission title"
+  },
+  "permSpeechLine": "Recognizes your cancel phrase during an emergency countdown, on your iPhone where supported.",
+  "@permSpeechLine": {
+    "description": "One-line speech recognition permission explanation"
+  },
+  "permAllowAll": "Allow all",
+  "@permAllowAll": {
+    "description": "Primary button that shows the iOS permission prompts one after another"
+  },
+  "permAsking": "Asking for {permission}…",
+  "@permAsking": {
+    "description": "Progress while one iOS permission prompt is shown",
+    "placeholders": {
+      "permission": {
+        "type": "String"
+      }
+    }
+  },
+  "permSomeDenied": "Some permissions are off. Turn them on in Settings to use those features.",
+  "@permSomeDenied": {
+    "description": "Hint when one or more permissions were denied"
+  },
+  "permNotNow": "Not now",
+  "@permNotNow": {
+    "description": "Secondary button to continue without granting the remaining permissions"
+  },
+  "tourLabel": "Drive screen tour",
+  "@tourLabel": {
+    "description": "Accessibility label for the coach-mark tour overlay"
+  },
+  "tourProgress": "Step {current} of {total}",
+  "@tourProgress": {
+    "description": "Tour progress for screen readers",
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "tourNext": "Next",
+  "@tourNext": {
+    "description": "Tour next step button"
+  },
+  "tourBack": "Back",
+  "@tourBack": {
+    "description": "Tour previous step button"
+  },
+  "tourSkip": "Skip tour",
+  "@tourSkip": {
+    "description": "Tour skip button"
+  },
+  "tourFinish": "Start driving",
+  "@tourFinish": {
+    "description": "Tour last-step button"
+  },
+  "tourWelcomeTitle": "Your quick tour",
+  "@tourWelcomeTitle": {
+    "description": "Tour step 1 title"
+  },
+  "tourWelcomeBody": "A one-minute look at what matters on the Drive screen. Best done while parked.",
+  "@tourWelcomeBody": {
+    "description": "Tour step 1 body"
+  },
+  "tourHudTitle": "Your instrument strip",
+  "@tourHudTitle": {
+    "description": "Tour step: HUD title"
+  },
+  "tourHudSpeed": "Speed comes from GPS.",
+  "@tourHudSpeed": {
+    "description": "Tour step: HUD speed line"
+  },
+  "tourHudRec": "REC shows how many seconds of footage are buffered.",
+  "@tourHudRec": {
+    "description": "Tour step: HUD REC/buffer line"
+  },
+  "tourHudAi": "The AI chip shows the model, how many objects it sees, and a dot: green running, amber limited, red stopped.",
+  "@tourHudAi": {
+    "description": "Tour step: HUD AI status line"
+  },
+  "tourSaveTitle": "Save Incident",
+  "@tourSaveTitle": {
+    "description": "Tour step: Save Incident title"
+  },
+  "tourSaveBody": "Corvista keeps a rolling buffer of the last {seconds} seconds of video. It is constantly overwritten, so nothing is kept unless you tap Save. Saved clips stay on this iPhone, in Clips.",
+  "@tourSaveBody": {
+    "description": "Tour step: Save Incident explanation",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "tourRecordTitle": "Record the whole drive",
+  "@tourRecordTitle": {
+    "description": "Guided tour step title for the manual Record button"
+  },
+  "tourRecordBody": "Tap Record to film continuously until you stop. Long drives are saved in 5-minute parts in Clips, and Save Incident keeps working while you record.",
+  "@tourRecordBody": {
+    "description": "Guided tour step explaining manual continuous recording"
+  },
+  "tourViewsTitle": "Five ways to see the road",
+  "@tourViewsTitle": {
+    "description": "Tour step: view switcher title"
+  },
+  "tourViewDetection": "Live camera with boxes around supported objects.",
+  "@tourViewDetection": {
+    "description": "Tour: one-line Detection view description"
+  },
+  "tourViewVirtual": "A simplified 3D scene built from detections.",
+  "@tourViewVirtual": {
+    "description": "Tour: one-line Virtual view description"
+  },
+  "tourViewMap": "Apple Maps with search and turn-by-turn guidance.",
+  "@tourViewMap": {
+    "description": "Tour: one-line Map view description"
+  },
+  "tourViewParking": "Camera plus a top-down proximity view.",
+  "@tourViewParking": {
+    "description": "Tour: one-line Parking view description"
+  },
+  "tourViewPerception": "Road and object masks.",
+  "@tourViewPerception": {
+    "description": "Tour: one-line Perception view description"
+  },
+  "tourMapTitle": "Search & turn-by-turn",
+  "@tourMapTitle": {
+    "description": "Tour step: map navigation title"
+  },
+  "tourMapBody": "Open Map, tap the search bar and pick a destination. Choose a route, then tap Start for turn-by-turn guidance. Needs an internet connection.",
+  "@tourMapBody": {
+    "description": "Tour step: map navigation body"
+  },
+  "tourClipsTitle": "Clips",
+  "@tourClipsTitle": {
+    "description": "Tour step: clips title"
+  },
+  "tourClipsBody": "Review, rename, share or delete saved incidents. Clips stay on your iPhone unless you share them.",
+  "@tourClipsBody": {
+    "description": "Tour step: clips body"
+  },
+  "tourSettingsTitle": "Settings",
+  "@tourSettingsTitle": {
+    "description": "Tour step: settings title"
+  },
+  "tourSettingsBody": "Tune voice alerts and their sensitivity, recording quality and buffer length, and set up Emergency mode: an experimental impact alert with a cancel countdown.",
+  "@tourSettingsBody": {
+    "description": "Tour step: settings body"
+  },
+  "tourSafetyTitle": "Before you drive",
+  "@tourSafetyTitle": {
+    "description": "Tour last step: safety reminders title"
+  },
+  "tourSafety1": "Mount your iPhone securely where it doesn't block your view.",
+  "@tourSafety1": {
+    "description": "Tour safety reminder: mounting"
+  },
+  "tourSafety2": "Don't interact with the app while driving. Set things up while parked.",
+  "@tourSafety2": {
+    "description": "Tour safety reminder: no interaction while driving"
+  },
+  "tourSafety3": "Detections and zones are estimates. They can be wrong or missed.",
+  "@tourSafety3": {
+    "description": "Tour safety reminder: estimates"
+  },
+  "tourSafety4": "You stay responsible for driving safely.",
+  "@tourSafety4": {
+    "description": "Tour safety reminder: responsibility"
+  },
+  "helpTakeTour": "Take the tour",
+  "@helpTakeTour": {
+    "description": "Help screen entry that replays the Drive screen tour"
+  },
+  "helpTakeTourSub": "A one-minute guided look at the Drive screen.",
+  "@helpTakeTourSub": {
+    "description": "Subtitle of the Take the tour entry"
+  },
+  "tripsTitle": "Trips",
+  "@tripsTitle": {
+    "description": "Title of the trip log screen"
+  },
+  "tripsOpen": "Trip log",
+  "@tripsOpen": {
+    "description": "Tooltip/label of the button that opens the trip log"
+  },
+  "tripsEmptyTitle": "No trips yet",
+  "@tripsEmptyTitle": {
+    "description": "Trip log empty state title"
+  },
+  "tripsEmptyBody": "Trips are recorded automatically while you drive with Corvista — distance, time, speed and the route you took.",
+  "@tripsEmptyBody": {
+    "description": "Trip log empty state body"
+  },
+  "tripsDisabledBody": "Trip log is off, so new drives aren't recorded. Turn it on to keep a private log of your routes on this iPhone.",
+  "@tripsDisabledBody": {
+    "description": "Empty state when trip logging is disabled"
+  },
+  "tripsEnable": "Turn on trip log",
+  "@tripsEnable": {
+    "description": "Button enabling the trip log"
+  },
+  "tripsToday": "Today",
+  "@tripsToday": {
+    "description": "Day group header for today"
+  },
+  "tripsYesterday": "Yesterday",
+  "@tripsYesterday": {
+    "description": "Day group header for yesterday"
+  },
+  "tripsRecordingNow": "Recording a trip · {distance}",
+  "@tripsRecordingNow": {
+    "description": "Banner while a trip is being recorded",
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "tripsTimeRange": "{start} – {end}",
+  "@tripsTimeRange": {
+    "description": "Trip start–end time range",
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "tripsPlaceRange": "{start} → {end}",
+  "@tripsPlaceRange": {
+    "description": "Trip start → end place names",
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "tripsIncidents": "{count, plural, =1{1 incident} other{{count} incidents}}",
+  "@tripsIncidents": {
+    "description": "Number of incident clips saved during a trip",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tripsAlerts": "{count, plural, =1{1 alert} other{{count} alerts}}",
+  "@tripsAlerts": {
+    "description": "Number of voice alerts during a trip",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tripsCount": "{count, plural, =0{No trips} =1{1 trip} other{{count} trips}}",
+  "@tripsCount": {
+    "description": "Number of recorded trips",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tripsStatDistance": "Distance",
+  "@tripsStatDistance": {
+    "description": "Stat card label"
+  },
+  "tripsStatDuration": "Duration",
+  "@tripsStatDuration": {
+    "description": "Stat card label"
+  },
+  "tripsStatMoving": "Moving time",
+  "@tripsStatMoving": {
+    "description": "Stat card label"
+  },
+  "tripsStatAvgSpeed": "Avg speed",
+  "@tripsStatAvgSpeed": {
+    "description": "Stat card label (average speed while moving)"
+  },
+  "tripsStatMaxSpeed": "Max speed",
+  "@tripsStatMaxSpeed": {
+    "description": "Stat card label"
+  },
+  "tripsDetections": "Detections",
+  "@tripsDetections": {
+    "description": "Section title: objects detected per class"
+  },
+  "tripsNoDetections": "No road objects were logged on this trip.",
+  "@tripsNoDetections": {
+    "description": "Shown when no detections"
+  },
+  "tripsTimeline": "Timeline",
+  "@tripsTimeline": {
+    "description": "Section title: trip events"
+  },
+  "tripsEventStart": "Trip started",
+  "@tripsEventStart": {
+    "description": "Timeline entry"
+  },
+  "tripsEventEnd": "Trip ended",
+  "@tripsEventEnd": {
+    "description": "Timeline entry"
+  },
+  "tripsEventAlert": "Voice alert",
+  "@tripsEventAlert": {
+    "description": "Timeline entry for a spoken alert"
+  },
+  "tripsEventIncident": "Incident clip saved",
+  "@tripsEventIncident": {
+    "description": "Timeline entry; tap opens the clip"
+  },
+  "tripsEventEmergency": "Possible crash detected",
+  "@tripsEventEmergency": {
+    "description": "Timeline entry for an emergency event"
+  },
+  "tripsEventNavStart": "Navigation started",
+  "@tripsEventNavStart": {
+    "description": "Timeline entry"
+  },
+  "tripsEventArrive": "Arrived at destination",
+  "@tripsEventArrive": {
+    "description": "Timeline entry"
+  },
+  "tripsEventReroute": "Route recalculated",
+  "@tripsEventReroute": {
+    "description": "Timeline entry"
+  },
+  "tripsEventRecording": "Recording saved",
+  "@tripsEventRecording": {
+    "description": "Timeline entry for a manual recording part"
+  },
+  "tripsOpenClip": "Open clip",
+  "@tripsOpenClip": {
+    "description": "Accessibility hint for incident timeline entries"
+  },
+  "tripsTrackPreview": "GPS track",
+  "@tripsTrackPreview": {
+    "description": "Label of the track-only preview when no map is available"
+  },
+  "tripsRenameTitle": "Rename trip",
+  "@tripsRenameTitle": {
+    "description": "Rename dialog title"
+  },
+  "tripsRenameHint": "Trip name",
+  "@tripsRenameHint": {
+    "description": "Rename text field hint"
+  },
+  "tripsFavorite": "Add to favorites",
+  "@tripsFavorite": {
+    "description": "Menu action"
+  },
+  "tripsUnfavorite": "Remove from favorites",
+  "@tripsUnfavorite": {
+    "description": "Menu action"
+  },
+  "tripsShareGpx": "Share GPX",
+  "@tripsShareGpx": {
+    "description": "Menu action: export the track as a GPX file"
+  },
+  "tripsShareFailed": "Couldn't share this trip.",
+  "@tripsShareFailed": {
+    "description": "Error when sharing fails"
+  },
+  "tripsDelete": "Delete trip",
+  "@tripsDelete": {
+    "description": "Menu action"
+  },
+  "tripsDeleteConfirmTitle": "Delete this trip?",
+  "@tripsDeleteConfirmTitle": {
+    "description": "Delete confirmation title"
+  },
+  "tripsDeleteConfirmBody": "The route and statistics will be removed from this iPhone. Incident clips from this trip are kept.",
+  "@tripsDeleteConfirmBody": {
+    "description": "Delete confirmation body"
+  },
+  "tripsDeleted": "Trip deleted",
+  "@tripsDeleted": {
+    "description": "Snackbar after deletion"
+  },
+  "tripsNotFound": "This trip is no longer available.",
+  "@tripsNotFound": {
+    "description": "Trip detail when the trip was deleted"
+  },
+  "tripsPrivacyNote": "Stored only on this iPhone. Nothing is uploaded.",
+  "@tripsPrivacyNote": {
+    "description": "Footer note on the trip detail"
+  },
+  "settingsSectionTrips": "Trip log",
+  "@settingsSectionTrips": {
+    "description": "Settings section title"
+  },
+  "settingsTripLog": "Record trips",
+  "@settingsTripLog": {
+    "description": "Settings switch"
+  },
+  "settingsTripLogSubtitle": "Keeps your route and drive statistics on this iPhone only.",
+  "@settingsTripLogSubtitle": {
+    "description": "Settings switch subtitle"
+  },
+  "settingsTripRetention": "Keep trips for",
+  "@settingsTripRetention": {
+    "description": "Settings choice: retention period"
+  },
+  "settingsRetentionDays": "{days, plural, =1{1 day} other{{days} days}}",
+  "@settingsRetentionDays": {
+    "description": "Retention option",
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsRetentionYear": "1 year",
+  "@settingsRetentionYear": {
+    "description": "Retention option"
+  },
+  "settingsRetentionForever": "Forever",
+  "@settingsRetentionForever": {
+    "description": "Retention option"
+  },
+  "settingsTripRetentionFooter": "Older trips are deleted automatically when Corvista starts.",
+  "@settingsTripRetentionFooter": {
+    "description": "Footer under trip settings"
+  },
+  "settingsViewTrips": "View trips",
+  "@settingsViewTrips": {
+    "description": "Settings row opening the trip log"
+  },
+  "tripsDurationHM": "{hours} h {minutes} min",
+  "@tripsDurationHM": {
+    "description": "Trip duration with hours",
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tripsDurationM": "{minutes} min",
+  "@tripsDurationM": {
+    "description": "Trip duration under an hour",
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "tripsGpxName": "Corvista trip {date}",
+  "@tripsGpxName": {
+    "description": "Name embedded in exported GPX files",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsFreeUpSpace": "Free up space",
+  "@settingsFreeUpSpace": {
+    "description": "Settings action that deletes temporary files and caches"
+  },
+  "settingsFreeUpSpaceSubtitle": "Removes temporary files and caches. Saved clips and trips are kept.",
+  "@settingsFreeUpSpaceSubtitle": {
+    "description": "Explains what Free up space deletes"
+  },
+  "settingsFreedBytes": "Freed {size}",
+  "@settingsFreedBytes": {
+    "description": "Result after cleanup",
+    "placeholders": {
+      "size": {
+        "type": "String",
+        "example": "120 MB"
+      }
+    }
+  },
+  "settingsNothingToFree": "Caches cleared — no temporary files to remove.",
+  "@settingsNothingToFree": {
+    "description": "Result when nothing besides caches was removed"
+  },
+  "settingsSectionPrivacyData": "Privacy & data",
+  "@settingsSectionPrivacyData": {
+    "description": "Settings section title for privacy controls and deleting user data"
+  },
+  "settingsPrivacyDataFooter": "Clips, trips and settings are stored only on this iPhone. They leave it only when you choose to share them.",
+  "@settingsPrivacyDataFooter": {
+    "description": "Footer under the Privacy & data settings section"
+  },
+  "settingsDeleteAllData": "Delete all data",
+  "@settingsDeleteAllData": {
+    "description": "Settings action that erases everything Corvista has stored on the device"
+  },
+  "settingsDeleteAllDataSubtitle": "Erase clips, trips, contacts and settings from this iPhone",
+  "@settingsDeleteAllDataSubtitle": {
+    "description": "Subtitle of the Delete all data action"
+  },
+  "deleteAllTitle": "Delete all data?",
+  "@deleteAllTitle": {
+    "description": "Title of the confirmation dialog for Delete all data"
+  },
+  "deleteAllMessage": "This permanently removes from this iPhone:\n• Incident clips and thumbnails\n• Trip log and GPS tracks\n• Emergency contacts and emergency events\n• Detection logs and the diagnostic log\n• Settings and recent destinations\n• Temporary recording buffer and cache\n\nThis cannot be undone. Corvista will then start again from the welcome screens.",
+  "@deleteAllMessage": {
+    "description": "Body of the Delete all data confirmation dialog. Keep the bullet list (one item per line) and the warning that it cannot be undone"
+  },
+  "deleteAllConfirm": "Delete everything",
+  "@deleteAllConfirm": {
+    "description": "Destructive confirm button of the Delete all data dialog"
+  },
+  "deleteAllInProgress": "Deleting…",
+  "@deleteAllInProgress": {
+    "description": "Shown while all data is being deleted"
+  },
+  "deleteAllDone": "All data deleted",
+  "@deleteAllDone": {
+    "description": "Snackbar after Delete all data succeeded"
+  },
+  "deleteAllPartial": "Some items could not be deleted. Try again from Settings.",
+  "@deleteAllPartial": {
+    "description": "Snackbar when Delete all data could not remove everything"
+  },
+  "diagLogSection": "Diagnostic log",
+  "@diagLogSection": {
+    "description": "Diagnostics section title for the private on-device error log"
+  },
+  "diagLogFooter": "Errors are recorded only on this iPhone, without locations, contact names or phone numbers. Nothing is sent unless you share the log yourself.",
+  "@diagLogFooter": {
+    "description": "Footer explaining the private error log"
+  },
+  "diagLogShare": "Share diagnostic log",
+  "@diagLogShare": {
+    "description": "Action that opens the share sheet with the error log file"
+  },
+  "diagLogEmpty": "Empty",
+  "@diagLogEmpty": {
+    "description": "Value shown when the diagnostic log has no entries"
+  },
+  "diagLogClear": "Clear log",
+  "@diagLogClear": {
+    "description": "Action that deletes the diagnostic log"
+  },
+  "diagLogClearTitle": "Clear diagnostic log?",
+  "@diagLogClearTitle": {
+    "description": "Title of the confirmation dialog for clearing the diagnostic log"
+  },
+  "diagLogClearBody": "Saved error entries will be deleted from this iPhone.",
+  "@diagLogClearBody": {
+    "description": "Body of the confirmation dialog for clearing the diagnostic log"
+  },
+  "diagLogCleared": "Diagnostic log cleared",
+  "@diagLogCleared": {
+    "description": "Snackbar after the diagnostic log was cleared"
+  },
+  "diagLogShareFailed": "Couldn't share the diagnostic log.",
+  "@diagLogShareFailed": {
+    "description": "Snackbar when the share sheet could not be opened"
+  },
+  "privacyControls2": "Settings › Privacy & data › Delete all data erases every clip, trip, contact, log and setting Corvista has stored on this iPhone.",
+  "@privacyControls2": {
+    "description": "Paragraph in the in-app privacy policy about Delete all data"
+  },
+  "parkingZoneStop": "Stop",
+  "@parkingZoneStop": {
+    "description": "Parking view headline when an object is estimated to be touching-close (under about 0.6 m). Short, imperative."
+  },
+  "parkingZoneVeryClose": "Very close",
+  "@parkingZoneVeryClose": {
+    "description": "Parking view zone: object estimated very close to the vehicle front"
+  },
+  "parkingZoneClose": "Close",
+  "@parkingZoneClose": {
+    "description": "Parking view zone: object estimated close (a few metres)"
+  },
+  "parkingZoneNothingClose": "Nothing close seen",
+  "@parkingZoneNothingClose": {
+    "description": "Parking view headline when no supported object is estimated close. Must NOT claim the area is clear."
+  },
+  "parkingNotDetected": "Walls, pillars, poles and kerbs are not detected",
+  "@parkingNotDetected": {
+    "description": "Reminder under 'Nothing close seen' in the parking view: these obstacles are never detected"
+  },
+  "parkingApprox": "approx.",
+  "@parkingApprox": {
+    "description": "Small tag next to a parking zone: the zone is a rough estimate"
+  },
+  "parkingSideLeft": "Left",
+  "@parkingSideLeft": {
+    "description": "Parking view sector: left of the vehicle's path"
+  },
+  "parkingSideCenter": "Center",
+  "@parkingSideCenter": {
+    "description": "Parking view sector: straight ahead in the vehicle's path"
+  },
+  "parkingSideRight": "Right",
+  "@parkingSideRight": {
+    "description": "Parking view sector: right of the vehicle's path"
+  },
+  "parkingObjectSide": "{object} · {side}",
+  "@parkingObjectSide": {
+    "description": "Nearest object in the parking view and the sector it is in, e.g. 'Car · Left'",
+    "placeholders": {
+      "object": {
+        "type": "String"
+      },
+      "side": {
+        "type": "String"
+      }
+    }
+  },
+  "parkingFrontOnly": "Front camera view only — not a 360° system",
+  "@parkingFrontOnly": {
+    "description": "Always-visible disclaimer on the parking view"
+  },
+  "parkingMuteBeeps": "Mute beeps",
+  "@parkingMuteBeeps": {
+    "description": "Button that silences the parking proximity beeps"
+  },
+  "parkingUnmuteBeeps": "Turn beeps on",
+  "@parkingUnmuteBeeps": {
+    "description": "Button that turns the parking proximity beeps back on"
+  },
+  "parkingAbout": "About parking view",
+  "@parkingAbout": {
+    "description": "Button / dialog title explaining what the parking view can and cannot detect"
+  },
+  "parkingLimitationsDetail": "Only the area in front of the camera is watched. The detector recognises cars, buses and trucks, people, bicycles and motorcycles. Walls, pillars, poles, kerbs, bollards, barriers and low obstacles are NOT detected, and the bonnet can hide the ground just ahead. Distances are rough guesses from one camera (object size and position) and can be wrong by a lot. Silence or “Nothing close seen” does not mean the way is clear — always look around and use your mirrors.",
+  "@parkingLimitationsDetail": {
+    "description": "Full explanation of the parking view's limitations, shown in the About dialog"
+  },
+  "parkingSectorsLabel": "Proximity by side: left {left}, center {center}, right {right}",
+  "@parkingSectorsLabel": {
+    "description": "Screen-reader label for the parking sector display",
+    "placeholders": {
+      "left": {
+        "type": "String"
+      },
+      "center": {
+        "type": "String"
+      },
+      "right": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyDiagnostics1": "Errors are written to a private log on this iPhone (no locations, contact names or phone numbers). It is never sent automatically; you can share or clear it in Settings › Diagnostics.",
+  "@privacyDiagnostics1": {
+    "description": "Paragraph in the in-app privacy policy about the local diagnostic log"
+  }
+}

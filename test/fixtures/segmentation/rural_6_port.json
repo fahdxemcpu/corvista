@@ -1,0 +1,41 @@
+{
+ "detections": [
+  {
+   "cls": 3,
+   "conf": 0.8833,
+   "h": 0.0748,
+   "key": "car",
+   "label": "car",
+   "w": 0.1335,
+   "x": 0.1083,
+   "y": 0.7068
+  },
+  {
+   "cls": 3,
+   "conf": 0.5765,
+   "h": 0.0289,
+   "key": "car",
+   "label": "car",
+   "w": 0.0501,
+   "x": 0.2428,
+   "y": 0.7238
+  },
+  {
+   "cls": 3,
+   "conf": 0.5433,
+   "h": 0.0415,
+   "key": "car",
+   "label": "car",
+   "w": 0.0627,
+   "x": 0.3415,
+   "y": 0.7136
+  }
+ ],
+ "detector": "YOLOX-S 640",
+ "height": 720,
+ "image": "rural_6_port.jpg",
+ "mapH": 224,
+ "mapW": 224,
+ "source": "rural_road.mp4 frame, eval: tools/model_eval/run_eval.sh --dump-maps",
+ "width": 404
+}

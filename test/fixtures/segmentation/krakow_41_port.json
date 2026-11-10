@@ -1,0 +1,61 @@
+{
+ "detections": [
+  {
+   "cls": 3,
+   "conf": 0.9165,
+   "h": 0.1096,
+   "key": "car",
+   "label": "car",
+   "w": 0.3135,
+   "x": 0.0172,
+   "y": 0.5775
+  },
+  {
+   "cls": 3,
+   "conf": 0.9087,
+   "h": 0.1472,
+   "key": "car",
+   "label": "car",
+   "w": 0.113,
+   "x": 0.8864,
+   "y": 0.5514
+  },
+  {
+   "cls": 3,
+   "conf": 0.8911,
+   "h": 0.0827,
+   "key": "car",
+   "label": "car",
+   "w": 0.1826,
+   "x": 0.7231,
+   "y": 0.5724
+  },
+  {
+   "cls": 3,
+   "conf": 0.8193,
+   "h": 0.0542,
+   "key": "car",
+   "label": "car",
+   "w": 0.0815,
+   "x": 0.6585,
+   "y": 0.5784
+  },
+  {
+   "cls": 3,
+   "conf": 0.5111,
+   "h": 0.0282,
+   "key": "car",
+   "label": "car",
+   "w": 0.0489,
+   "x": 0.6093,
+   "y": 0.5894
+  }
+ ],
+ "detector": "YOLOX-S 640",
+ "height": 720,
+ "image": "krakow_41_port.jpg",
+ "mapH": 224,
+ "mapW": 224,
+ "source": "city_krakow.mp4 frame, eval: tools/model_eval/run_eval.sh --dump-maps",
+ "width": 404
+}

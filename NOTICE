@@ -1,0 +1,28 @@
+Corvista
+Copyright (c) 2026 Fahd Chouki
+Licensed under the Corvista Source-Available License (see LICENSE):
+free for non-commercial use; commercial use requires a paid licence
+(10% of gross revenue).
+
+This product includes third-party components under their own licences:
+
+- On-device object-detection models: derived from YOLOX (Megvii), Apache
+  License 2.0. Converted to Core ML with box decoding and NMS added.
+  Full text and modification notice: assets/licenses/detection_model_LICENSE.txt
+- On-device scene-segmentation model: derived from DETR ResNet-50, Apache
+  License 2.0. Full text: assets/licenses/scene_model_LICENSE.txt
+- Training annotations: COCO dataset, (c) COCO Consortium, CC BY 4.0.
+- Flutter and Dart packages listed in pubspec.yaml / pubspec.lock, each
+  under its own licence (shown in the app under Settings > Information >
+  Open-source licences).
+
+Demo media in docs/media and the release demo video show the app running on
+"City Driving 4K - Kraków Poland 2024" by Relaxing Roads 4K, via Wikimedia
+Commons, CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). The
+footage is shown inside the app's UI; it is not included in this repository.
+Other QA footage sources are listed in docs/TEST_FOOTAGE.md.
+
+Evaluation photos in tools/model_eval/images and images_extra are from
+Wikimedia Commons under their own licences (CC BY, CC BY-SA, CC0, public
+domain); authors and licences are listed in tools/model_eval/IMAGES.md. They
+are used for model evaluation only and are not part of the app.

@@ -1,0 +1,31 @@
+{
+ "detections": [
+  {
+   "cls": 6,
+   "conf": 0.7759,
+   "h": 0.0367,
+   "key": "stopSign",
+   "label": "stop sign",
+   "w": 0.0228,
+   "x": 0.575,
+   "y": 0.4258
+  },
+  {
+   "cls": 0,
+   "conf": 0.7466,
+   "h": 0.1084,
+   "key": "person",
+   "label": "person",
+   "w": 0.034,
+   "x": 0.6227,
+   "y": 0.5254
+  }
+ ],
+ "detector": "YOLOX-S 640",
+ "height": 720,
+ "image": "krakow_22_land.jpg",
+ "mapH": 224,
+ "mapW": 224,
+ "source": "city_krakow.mp4 frame, eval: tools/model_eval/run_eval.sh --dump-maps",
+ "width": 1280
+}

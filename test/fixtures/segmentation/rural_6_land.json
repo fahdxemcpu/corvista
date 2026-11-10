@@ -1,0 +1,41 @@
+{
+ "detections": [
+  {
+   "cls": 4,
+   "conf": 0.7087,
+   "h": 0.0711,
+   "key": "bus",
+   "label": "bus",
+   "w": 0.0439,
+   "x": 0.3763,
+   "y": 0.7066
+  },
+  {
+   "cls": 3,
+   "conf": 0.5114,
+   "h": 0.0259,
+   "key": "car",
+   "label": "car",
+   "w": 0.0175,
+   "x": 0.418,
+   "y": 0.7273
+  },
+  {
+   "cls": 3,
+   "conf": 0.4746,
+   "h": 0.0256,
+   "key": "car",
+   "label": "car",
+   "w": 0.0196,
+   "x": 0.4514,
+   "y": 0.7313
+  }
+ ],
+ "detector": "YOLOX-S 640",
+ "height": 720,
+ "image": "rural_6_land.jpg",
+ "mapH": 224,
+ "mapW": 224,
+ "source": "rural_road.mp4 frame, eval: tools/model_eval/run_eval.sh --dump-maps",
+ "width": 1280
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "shortDescription": "",
+    "metadataOutputVersion": "3.0",
+    "outputSchema": [
+      {
+        "hasShapeFlexibility": "0",
+        "isOptional": "0",
+        "dataType": "Int32",
+        "formattedType": "MultiArray (Int32 448 \u00d7 448)",
+        "shortDescription": "",
+        "shape": "[448, 448]",
+        "name": "semanticPredictions",
+        "type": "MultiArray"
+      }
+    ],
+    "version": "",
+    "modelParameters": [],
+    "author": "",
+    "specificationVersion": 8,
+    "storagePrecision": "Mixed (Float16, Palettized (8 bits))",
+    "license": "",
+    "mlProgramOperationTypeHistogram": {
+      "Ios17.square": 5,
+      "Ios17.reduceArgmax": 1,
+      "Ios16.maxPool": 1,
+      "UpsampleNearestNeighbor": 3,
+      "Ios17.reshape": 159,
+      "Ios16.reduceMean": 10,
+      "Ios16.softmax": 19,
+      "Ios17.matmul": 36,
+      "Ios17.transpose": 71,
+      "Ios17.expandDims": 4,
+      "Ios17.add": 70,
+      "Tile": 4,
+      "Ios17.sliceByIndex": 2,
+      "Ios16.sigmoid": 1,
+      "Ios17.layerNorm": 30,
+      "Ios17.batchNorm": 5,
+      "Ios17.sqrt": 5,
+      "Ios17.sub": 6,
+      "Ios17.conv": 64,
+      "Ios16.constexprLutToDense": 183,
+      "Ios16.relu": 66,
+      "Ios17.linear": 93,
+      "Ios17.concat": 1,
+      "Ios17.cast": 2,
+      "Ios17.realDiv": 5,
+      "Ios16.upsampleBilinear": 1,
+      "Ios17.mul": 18
+    },
+    "computePrecision": "Mixed (Float16, Float32, Int32, UInt16)",
+    "stateSchema": [],
+    "isUpdatable": "0",
+    "availability": {
+      "macOS": "14.0",
+      "tvOS": "17.0",
+      "visionOS": "1.0",
+      "watchOS": "10.0",
+      "iOS": "17.0",
+      "macCatalyst": "17.0"
+    },
+    "modelType": {
+      "name": "MLModelType_mlProgram"
+    },
+    "inputSchema": [
+      {
+        "height": "448",
+        "colorspace": "RGB",
+        "isOptional": "0",
+        "width": "448",
+        "isColor": "1",
+        "formattedType": "Image (Color 448 \u00d7 448)",
+        "hasSizeFlexibility": "0",
+        "type": "Image",
+        "shortDescription": "",
+        "name": "image"
+      }
+    ],
+    "userDefinedMetadata": {
+      "com.apple.coreml.model.preview.params": "{\"labels\": [\"--\", \"person\", \"bicycle\", \"car\", \"motorcycle\", \"airplane\", \"bus\", \"train\", \"truck\", \"boat\", \"traffic light\", \"fire hydrant\", \"--\", \"stop sign\", \"parking meter\", \"bench\", \"bird\", \"cat\", \"dog\", \"horse\", \"sheep\", \"cow\", \"elephant\", \"bear\", \"zebra\", \"giraffe\", \"--\", \"backpack\", \"umbrella\", \"--\", \"--\", \"handbag\", \"tie\", \"suitcase\", \"frisbee\", \"skis\", \"snowboard\", \"sports ball\", \"kite\", \"baseball bat\", \"baseball glove\", \"skateboard\", \"surfboard\", \"tennis racket\", \"bottle\", \"--\", \"wine glass\", \"cup\", \"fork\", \"knife\", \"spoon\", \"bowl\", \"banana\", \"apple\", \"sandwich\", \"orange\", \"broccoli\", \"carrot\", \"hot dog\", \"pizza\", \"donut\", \"cake\", \"chair\", \"couch\", \"potted plant\", \"bed\", \"--\", \"dining table\", \"--\", \"--\", \"toilet\", \"--\", \"tv\", \"laptop\", \"mouse\", \"remote\", \"keyboard\", \"cell phone\", \"microwave\", \"oven\", \"toaster\", \"sink\", \"refrigerator\", \"--\", \"book\", \"clock\", \"vase\", \"scissors\", \"teddy bear\", \"hair drier\", \"toothbrush\", \"--\", \"banner\", \"blanket\", \"--\", \"bridge\", \"--\", \"--\", \"--\", \"--\", \"cardboard\", \"--\", \"--\", \"--\", \"--\", \"--\", \"--\", \"counter\", \"--\", \"curtain\", \"--\", \"--\", \"door\", \"--\", \"--\", \"--\", \"--\", \"--\", \"floor (wood)\", \"flower\", \"--\", \"--\", \"fruit\", \"--\", \"--\", \"gravel\", \"--\", \"--\", \"house\", \"--\", \"light\", \"--\", \"--\", \"mirror\", \"--\", \"--\", \"--\", \"--\", \"net\", \"--\", \"--\", \"pillow\", \"--\", \"--\", \"platform\", \"playingfield\", \"--\", \"railroad\", \"river\", \"road\", \"--\", \"roof\", \"--\", \"--\", \"sand\", \"sea\", \"shelf\", \"--\", \"--\", \"snow\", \"--\", \"stairs\", \"--\", \"--\", \"--\", \"--\", \"tent\", \"--\", \"towel\", \"--\", \"--\", \"wall (brick)\", \"--\", \"--\", \"--\", \"wall (stone)\", \"wall (tile)\", \"wall (wood)\", \"water (other)\", \"--\", \"window (blind)\", \"window (other)\", \"--\", \"--\", \"tree\", \"fence\", \"ceiling\", \"sky (other)\", \"cabinet\", \"table\", \"floor (other)\", \"pavement\", \"mountain\", \"grass\", \"dirt\", \"paper\", \"food (other)\", \"building (other)\", \"rock\", \"wall (other)\", \"rug\"]}"
+    },
+    "generatedClassName": "",
+    "method": "predict"
+  }
+]
